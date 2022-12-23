@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="610" height="251.501" viewBox="0 0 610 251.501">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb30b"/>
+      <stop offset="1" stop-color="#cc8f08"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9ddfc"/>
+      <stop offset="1" stop-color="#94b0c9"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb30b"/>
+      <stop offset="1" stop-color="#996b06"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#97afc8"/>
+      <stop offset="1" stop-color="#042c58"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00defc"/>
+      <stop offset="1" stop-color="#008597"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_175160" data-name="Grupo 175160" transform="translate(-705 -4866)">
+    <path id="Trazado_204752" data-name="Trazado 204752" d="M600,31.981a8.009,8.009,0,0,1,8,8v30a8.009,8.009,0,0,1-8,8H490a8.009,8.009,0,0,1-8-8v-30a8.009,8.009,0,0,1,8-8Zm0-2H490a10,10,0,0,0-10,10v30a10,10,0,0,0,10,10H600a10,10,0,0,0,10-10v-30a10,10,0,0,0-10-10" transform="translate(705 4866)" fill="#084a93"/>
+    <text id="Data_Warehouse_de_Ventas" data-name="Data Warehouse
+de Ventas" transform="translate(1197.833 4903.672)" fill="#12263f" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-50.104" y="13">Data Warehouse</tspan><tspan font-family="Roboto-Regular, Roboto" font-style="normal"><tspan x="-30.967" y="29">de Ventas</tspan></tspan></text>
+    <path id="Trazado_204750" data-name="Trazado 204750" d="M600,103a8.009,8.009,0,0,1,8,8v30a8.009,8.009,0,0,1-8,8H490a8.009,8.009,0,0,1-8-8V111a8.009,8.009,0,0,1,8-8Zm0-2H490a10,10,0,0,0-10,10v30a10,10,0,0,0,10,10H600a10,10,0,0,0,10-10V111a10,10,0,0,0-10-10" transform="translate(705 4866)" fill="#084a93"/>
+    <text id="Data_Mart_de_Marketing" data-name="Data Mart
+de Marketing" transform="translate(1198 4976)" fill="#12263f" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-30.358" y="13">Data Mart</tspan><tspan font-family="Roboto-Regular, Roboto" font-style="normal"><tspan x="-40.007" y="29">de </tspan><tspan y="29" font-family="Roboto-Italic, Roboto" font-style="italic">Marketing</tspan></tspan></text>
+    <path id="Trazado_204753" data-name="Trazado 204753" d="M461,126a59.5,59.5,0,1,1-59.5-59.5A59.5,59.5,0,0,1,461,126" transform="translate(705 4866.5)" opacity="0.35" fill="url(#radial-gradient)"/>
+    <text id="Datos_Entregables_para_Data_Marts_Dimensionales" data-name="Datos
+Entregables
+para Data Marts
+Dimensionales" transform="translate(1054 4960)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-18.218" y="13">Datos</tspan><tspan x="-36.818" y="29">Entregables</tspan><tspan x="-49.4" y="45">para </tspan><tspan y="45" font-family="Roboto-Italic, Roboto" font-style="italic">Data Marts</tspan><tspan x="-45.982" y="61">Dimensionales</tspan></text>
+    <path id="Trazado_204754" data-name="Trazado 204754" d="M313,63a8.009,8.009,0,0,1,8,8V181a8.009,8.009,0,0,1-8,8H243a8.009,8.009,0,0,1-8-8V71a8.009,8.009,0,0,1,8-8Zm0-2H243a10,10,0,0,0-10,10V181a10,10,0,0,0,10,10h70a10,10,0,0,0,10-10V71a10,10,0,0,0-10-10" transform="translate(705 4866)" fill="#084a93"/>
+    <text id="DW_Normalizado" data-name="DW
+Normalizado" transform="translate(941 4976)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-10.801" y="13">DW</tspan><tspan x="-39.908" y="29">Normalizado</tspan></text>
+    <path id="Trazado_204755" data-name="Trazado 204755" d="M214,126a47.5,47.5,0,1,1-47.5-47.5A47.5,47.5,0,0,1,214,126" transform="translate(705 4866.5)" opacity="0.35" fill="url(#radial-gradient-2)"/>
+    <text id="Adquisición_de_datos_del_DW_en_la_3FN" data-name="Adquisición
+de datos del
+DW en la 3FN" transform="translate(832 4966)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-36.576" y="13">Adquisición</tspan><tspan x="-38.052" y="29">de datos del</tspan><tspan x="-27.344" y="45">DW en la </tspan><tspan x="-12.79" y="61">3FN</tspan></text>
+    <path id="Trazado_204751" data-name="Trazado 204751" d="M600,174.019a8.009,8.009,0,0,1,8,8v30a8.009,8.009,0,0,1-8,8H490a8.009,8.009,0,0,1-8-8v-30a8.009,8.009,0,0,1,8-8Zm0-2H490a10,10,0,0,0-10,10v30a10,10,0,0,0,10,10H600a10,10,0,0,0,10-10v-30a10,10,0,0,0-10-10" transform="translate(705 4865.981)" fill="#084a93"/>
+    <text id="Data_Mart_de_Finanzas" data-name="Data Mart
+de Finanzas" transform="translate(1198 5047)" fill="#12263f" font-size="14" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-30.358" y="13">Data Mart</tspan><tspan font-family="Roboto-Regular, Roboto" font-style="normal"><tspan x="-37.375" y="29">de Finanzas</tspan></tspan></text>
+    <path id="Trazado_204756" data-name="Trazado 204756" d="M100,7.479H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 4865.521)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_204757" data-name="Trazado 204757" d="M100,7.5c0,4.142-22.386,7.5-50,7.5S0,11.642,0,7.5,22.386,0,50,0s50,3.358,50,7.5" transform="translate(705 4866)" fill="#ffb30b"/>
+    <text id="Transacciones_de_orden" data-name="Transacciones
+de orden" transform="translate(710 4893)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-45.438" y="13">Transacciones</tspan><tspan x="-27.204" y="29">de orden</tspan></text>
+    <path id="Trazado_204758" data-name="Trazado 204758" d="M100,93.489H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 4865.511)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_204759" data-name="Trazado 204759" d="M100,93.51c0,4.142-22.386,7.5-50,7.5S0,97.652,0,93.51s22.386-7.5,50-7.5,50,3.358,50,7.5" transform="translate(705 4866)" fill="#97afc8"/>
+    <text id="Inventario_del_Registro_Instantáneo_de_Datos" data-name="Inventario
+del Registro
+Instantáneo
+de Datos" transform="translate(718 4963)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-30.837" y="13">Inventario</tspan><tspan x="-36.921" y="29">del Registro</tspan><tspan x="-36.989" y="45">Instantáneo</tspan><tspan x="-27.607" y="61">de Datos</tspan></text>
+    <path id="Trazado_204760" data-name="Trazado 204760" d="M100,179.5H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 4865.502)" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_204761" data-name="Trazado 204761" d="M100,179.519c0,4.142-22.386,7.5-50,7.5s-50-3.358-50-7.5,22.386-7.5,50-7.5,50,3.358,50,7.5" transform="translate(705 4866)" fill="#00defc"/>
+    <text id="Transacciones_de_Embarque" data-name="Transacciones
+de Embarque" transform="translate(709 5065)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-45.438" y="13">Transacciones</tspan><tspan x="-41.087" y="29">de Embarque</tspan></text>
+    <path id="Trazado_254806" data-name="Trazado 254806" d="M0,0,36.641,45.33" transform="translate(805 4909.73)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254807" data-name="Trazado 254807" d="M0,0H19" transform="translate(805 4992)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254808" data-name="Trazado 254808" d="M0,48.01,37.341,0" transform="translate(805 5029.49)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254809" data-name="Trazado 254809" d="M0,0,19,.279" transform="translate(919 4992.279)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254810" data-name="Trazado 254810" d="M0,0,19,.355" transform="translate(1028 4992.203)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254811" data-name="Trazado 254811" d="M0,0,34.378,31.1" transform="translate(1150.623 5031.918)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254812" data-name="Trazado 254812" d="M0,0H19" transform="translate(1166 4992)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <path id="Trazado_254813" data-name="Trazado 254813" d="M0,33.115,35.177,0" transform="translate(1149.823 4918.103)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>

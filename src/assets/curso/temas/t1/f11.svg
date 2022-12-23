@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="618" height="270.5" viewBox="0 0 618 270.5">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9ddfc"/>
+      <stop offset="1" stop-color="#6f8497"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb30b"/>
+      <stop offset="1" stop-color="#996b06"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#97afc8"/>
+      <stop offset="1" stop-color="#042c58"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00defc"/>
+      <stop offset="1" stop-color="#008597"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eed398"/>
+      <stop offset="1" stop-color="#cc8f08"/>
+    </linearGradient>
+    <filter id="Trazado_204769" x="451" y="0" width="166.809" height="270" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6e2ed"/>
+      <stop offset="1" stop-color="#042c58"/>
+    </linearGradient>
+    <filter id="Trazado_204770" x="422" y="30" width="166.81" height="240" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient-2"/>
+    <filter id="Trazado_204771" x="380" y="60" width="166.81" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient-3"/>
+    <filter id="Trazado_204772" x="350" y="90" width="166.809" height="180" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_204774" x="391" y="143.5" width="186" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x1="0.5" y1="0.18" x2="0.5" y2="1.393" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_204773" x="350" y="202.5" width="268" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_175161" data-name="Grupo 175161" transform="translate(-705 -5370.5)">
+    <g id="Grupo_140752" data-name="Grupo 140752" transform="translate(0 1544)">
+      <path id="Trazado_204762" data-name="Trazado 204762" d="M293.958,126.5a82.893,82.893,0,1,1-82.893-82.893A82.893,82.893,0,0,1,293.958,126.5" transform="translate(704.827 3832.393)" opacity="0.35" fill="url(#radial-gradient)"/>
+      <text id="Plataforma_de_Datos_para_DW_Dimensional_-_Arquitectura_Bus_del_DW" data-name="Plataforma
+de Datos para
+DW
+Dimensional
+-
+Arquitectura
+Bus del DW" transform="translate(861 3902)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-35.178" y="13">Plataforma</tspan><tspan x="-43.213" y="29">de Datos para</tspan><tspan x="-10.609" y="45">DW</tspan><tspan x="-39.266" y="61">Dimensional</tspan><tspan x="-3.148" y="77">-</tspan><tspan x="-39.628" y="93">Arquitectura</tspan><tspan x="-35.817" y="109">Bus del DW</tspan></text>
+    </g>
+    <line id="Línea_365" data-name="Línea 365" x2="36.641" y2="45.33" transform="translate(805 5420.23)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_366" data-name="Línea 366" x2="28.172" transform="translate(805 5502.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_367" data-name="Línea 367" x2="65.219" transform="translate(998.958 5502.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_368" data-name="Línea 368" y1="48.01" x2="37.341" transform="translate(805 5539.99)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Grupo_140749" data-name="Grupo 140749" transform="translate(0 2054.999)">
+      <path id="Trazado_204756" data-name="Trazado 204756" d="M100,7.479H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 3321.521)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_204757" data-name="Trazado 204757" d="M100,7.5c0,4.142-22.386,7.5-50,7.5S0,11.642,0,7.5,22.386,0,50,0s50,3.358,50,7.5" transform="translate(705 3322)" fill="#ffb30b"/>
+      <text id="Transacciones_de_orden" data-name="Transacciones
+de orden" transform="translate(710 3349)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-45.438" y="13">Transacciones</tspan><tspan x="-27.204" y="29">de orden</tspan></text>
+    </g>
+    <g id="Grupo_140750" data-name="Grupo 140750" transform="translate(0 2054.999)">
+      <path id="Trazado_204758" data-name="Trazado 204758" d="M100,93.489H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 3321.511)" fill="url(#linear-gradient-2)"/>
+      <path id="Trazado_204759" data-name="Trazado 204759" d="M100,93.51c0,4.142-22.386,7.5-50,7.5S0,97.652,0,93.51s22.386-7.5,50-7.5,50,3.358,50,7.5" transform="translate(705 3322)" fill="#97afc8"/>
+      <text id="Inventario_del_Registro_Instantáneo_de_Datos" data-name="Inventario
+del Registro
+Instantáneo
+de Datos" transform="translate(718 3419)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-30.837" y="13">Inventario</tspan><tspan x="-36.921" y="29">del Registro</tspan><tspan x="-36.989" y="45">Instantáneo</tspan><tspan x="-27.607" y="61">de Datos</tspan></text>
+    </g>
+    <g id="Grupo_140751" data-name="Grupo 140751" transform="translate(0 2054.999)">
+      <path id="Trazado_204760" data-name="Trazado 204760" d="M100,179.5H0v65H0c0,4.143,22.386,7.5,50,7.5s50-3.357,50-7.5h0Z" transform="translate(705 3321.502)" fill="url(#linear-gradient-3)"/>
+      <path id="Trazado_204761" data-name="Trazado 204761" d="M100,179.519c0,4.142-22.386,7.5-50,7.5s-50-3.358-50-7.5,22.386-7.5,50-7.5,50,3.358,50,7.5" transform="translate(705 3322)" fill="#00defc"/>
+      <text id="Transacciones_de_Embarque" data-name="Transacciones
+de Embarque" transform="translate(709 3521)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="-45.438" y="13">Transacciones</tspan><tspan x="-41.087" y="29">de Embarque</tspan></text>
+    </g>
+    <g id="Grupo_140760" data-name="Grupo 140760" transform="translate(0 1544)">
+      <g id="Grupo_140753" data-name="Grupo 140753">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204769)">
+          <path id="Trazado_204769-2" data-name="Trazado 204769" d="M595.349,252.5H474.2a13.828,13.828,0,0,1-13.828-13.829V14.329A13.828,13.828,0,0,1,474.2.5H595.349a13.828,13.828,0,0,1,13.828,13.829V238.671A13.828,13.828,0,0,1,595.349,252.5" transform="translate(-0.37 5.5)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <text id="Línea_Órdenes" data-name="Línea Órdenes" transform="translate(1187 3840.115)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-45.521" y="13">Línea Órdenes</tspan></text>
+      </g>
+      <g id="Grupo_140754" data-name="Grupo 140754">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204770)">
+          <path id="Trazado_204770-2" data-name="Trazado 204770" d="M565.558,252.5H444.464a13.858,13.858,0,0,1-13.858-13.858V44.358A13.858,13.858,0,0,1,444.464,30.5H565.558a13.857,13.857,0,0,1,13.858,13.858V238.642A13.857,13.857,0,0,1,565.558,252.5" transform="translate(0.39 5.5)" fill="url(#linear-gradient-5)"/>
+        </g>
+        <text id="Pagos" transform="translate(1158 3869.474)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-19.776" y="13">Pagos</tspan></text>
+      </g>
+      <g id="Grupo_140755" data-name="Grupo 140755">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204771)">
+          <path id="Trazado_204771-2" data-name="Trazado 204771" d="M523.772,252.5H402.916a13.977,13.977,0,0,1-13.977-13.977V74.477A13.977,13.977,0,0,1,402.916,60.5H523.772a13.977,13.977,0,0,1,13.977,13.977V238.523A13.977,13.977,0,0,1,523.772,252.5" transform="translate(0.06 5.5)" fill="url(#linear-gradient-6)"/>
+        </g>
+        <text id="Inventario" transform="translate(1116 3899.476)" fill="#fff" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-32.016" y="13">Inventario</tspan></text>
+      </g>
+      <g id="Grupo_140756" data-name="Grupo 140756">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204772)">
+          <path id="Trazado_204772-2" data-name="Trazado 204772" d="M493.751,252.5H373.412a14.235,14.235,0,0,1-14.235-14.235V104.735A14.235,14.235,0,0,1,373.412,90.5H493.751a14.235,14.235,0,0,1,14.235,14.235v133.53A14.235,14.235,0,0,1,493.751,252.5" transform="translate(-0.18 5.5)" fill="url(#linear-gradient-7)"/>
+        </g>
+        <text id="Órdenes" transform="translate(1086 3930.107)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-26.513" y="13">Órdenes</tspan></text>
+      </g>
+      <g id="Grupo_140758" data-name="Grupo 140758">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204774)">
+          <path id="Trazado_204774-2" data-name="Trazado 204774" d="M517.09,252.5H369.265c-5.571,0-10.087-6.72-10.087-15.011V217.511c0-8.291,4.516-15.011,10.087-15.011H517.09c5.571,0,10.087,6.72,10.087,15.011v19.978c0,8.291-4.516,15.011-10.087,15.011" transform="translate(40.82 -53)" fill="#fff"/>
+        </g>
+        <text id="DW_Dimensional:_Atómico_y_Resumen" data-name="DW Dimensional:
+Atómico y Resumen" transform="translate(1122 3985)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-53.72" y="13">DW Dimensional:</tspan><tspan x="-63.273" y="29">Atómico y Resumen</tspan></text>
+      </g>
+      <g id="Grupo_140759" data-name="Grupo 140759">
+        <g transform="matrix(1, 0, 0, 1, 705, 3826.5)" filter="url(#Trazado_204773)">
+          <path id="Trazado_204773-2" data-name="Trazado 204773" d="M594.167,252.5H374.188a15.01,15.01,0,0,1-15.01-15.011V217.511a15.01,15.01,0,0,1,15.01-15.011H594.167a15.011,15.011,0,0,1,15.011,15.011v19.978A15.011,15.011,0,0,1,594.167,252.5" transform="translate(-0.18 6)" fill="url(#linear-gradient-8)"/>
+        </g>
+        <text id="Arquitectura_Bus_del_DW" data-name="Arquitectura Bus del DW" transform="translate(1099 4052)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-77.188" y="13">Arquitectura Bus del DW</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

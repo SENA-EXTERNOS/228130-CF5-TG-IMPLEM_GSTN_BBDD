@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="236" viewBox="0 0 610 236">
+  <g id="Grupo_140769" data-name="Grupo 140769" transform="translate(-705 -5891.687)">
+    <g id="Grupo_140768" data-name="Grupo 140768">
+      <text id="Tabla_de_dimensión" data-name="Tabla de dimensión" transform="translate(726.247 5906.687)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tabla de dimensión</tspan></text>
+      <g id="Grupo_140763" data-name="Grupo 140763">
+        <rect id="Rectángulo_297288" data-name="Rectángulo 297288" width="178" height="198" rx="10" transform="translate(706 5929.687)" fill="#fff"/>
+        <path id="Trazado_204780" data-name="Trazado 204780" d="M180,75.687H0v-30a10,10,0,0,1,10-10H170a10,10,0,0,1,10,10Z" transform="translate(705 5893)" fill="#ffb30b"/>
+        <text id="CLIENTE" transform="translate(763.856 5953.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CLIENTE</tspan></text>
+        <text id="Id_Cliente" transform="translate(717 5993.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Id_Cliente</tspan></text>
+        <text id="Nombre_Cliente" transform="translate(717 6033.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Nombre_Cliente</tspan></text>
+        <text id="Telefono_Cliente" transform="translate(717 6073.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Telefono_Cliente</tspan></text>
+        <text id="Direccion_Cliente" transform="translate(717 6113.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Direccion_Cliente</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_140767" data-name="Grupo 140767">
+      <text id="Tabla_de_hechos" data-name="Tabla de hechos" transform="translate(952.63 5906.687)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tabla de hechos</tspan></text>
+      <g id="Grupo_140764" data-name="Grupo 140764">
+        <rect id="Rectángulo_297286" data-name="Rectángulo 297286" width="178" height="158" rx="10" transform="translate(921 5929.687)" fill="#fff"/>
+        <path id="Trazado_204778" data-name="Trazado 204778" d="M395,75.687H215v-30a10,10,0,0,1,10-10H385a10,10,0,0,1,10,10Z" transform="translate(705 5893)" fill="#ffb30b"/>
+        <text id="VENTAS" transform="translate(980.336 5953.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">VENTAS</tspan></text>
+        <text id="Id_Cliente-2" data-name="Id_Cliente" transform="translate(932.008 5993.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Id_Cliente</tspan></text>
+        <text id="Id_Producto" transform="translate(931.993 6033.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Id_Producto</tspan></text>
+        <text id="Cantidad_Producto" transform="translate(931.993 6073.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cantidad_Producto</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_140766" data-name="Grupo 140766">
+      <text id="Tabla_de_dimensión-2" data-name="Tabla de dimensión" transform="translate(1156.246 5906.687)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tabla de dimensión</tspan></text>
+      <g id="Grupo_140765" data-name="Grupo 140765">
+        <rect id="Rectángulo_297287" data-name="Rectángulo 297287" width="178" height="158" rx="10" transform="translate(1136 5929.687)" fill="#fff"/>
+        <path id="Trazado_204779" data-name="Trazado 204779" d="M610,75.687H430v-30a10,10,0,0,1,10-10H600a10,10,0,0,1,10,10Z" transform="translate(705 5893)" fill="#ffb30b"/>
+        <text id="PRODUCTO" transform="translate(1183.824 5953.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">PRODUCTO</tspan></text>
+        <text id="Id_Producto-2" data-name="Id_Producto" transform="translate(1147 5993.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Id_Producto</tspan></text>
+        <text id="Nombre_Producto" transform="translate(1147 6033.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Nombre_Producto</tspan></text>
+        <text id="Descripciòn_Producto" transform="translate(1146.984 6073.363)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Descripciòn_Producto</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
