@@ -22,8 +22,6 @@
         figure
           img(src="@/assets/curso/temas/t1/f1.png", alt="programador sentado con un laptop en las piernas")
 
-
-
     TabsC.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="¿Cuál es su finalidad?")
         .row.justify-content-around.align-items-center
@@ -43,7 +41,6 @@
               i.fas.fa-circle.text-small.fab.me-2
               | Ayudar al funcionamiento de las aplicaciones que permiten la toma de decisiones.
            
-          
       .py-4.py-md-5(titulo="Los siguientes son los tipos de datos en un DW")
         .row.justify-content-around.align-items-center
           .col-md-6.tarjeta.fcasiblanco.p-3
@@ -65,10 +62,6 @@
             img(src='@/assets/curso/temas/t1/f5.png', alt='')
           .col-md-6.mb-4.mb-md-0
             p Datos de seguimiento del negocio: presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
-          
-
-
-
 
     .bloque-texto-a.color-primario.invert.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
