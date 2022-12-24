@@ -2,13 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 43%
+    right: 94%
+    width: 200px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 35%
+    width: 168px
 
 
 @keyframes float1
@@ -17,3 +19,116 @@
 
   100%
     transform: translateY(0px)
+
+.bloque-texto-a__texto.p-4
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: calc( 100% + 2rem )
+    height: calc( 100% + 2rem )
+    border: dashed $color-primario
+    top: -1rem
+    left: -1rem
+
+.bloque-texto-a.color-acento-contenido 
+  background-color: #E7F3FE
+
+.bloque-texto-a.color-acento-contenido:before 
+  background-color: #FFE4A9
+
+.bloque-texto-a.color-primario 
+  background-color: #FCE3AC
+
+.bloque-texto-a.color-primario:before 
+  background-color: #DEF3F3
+
+.linea-tiempo
+  background-color: #EDF7FE !important
+
+.linea-tiempo-dos
+  background-color: #EDF7FE !important
+
+.tarjeta-acordeon, .acordion__activo
+  background-color: #E8E8E8 
+
+.tarjeta-acordeon
+  background-color: #F6F6F6 
+
+.acordion__accion__btn--a 
+  background-color: #084A93 !important
+
+.faa
+  color: $color-acento-contenido !important
+
+.fab
+  color: #12263F !important
+
+.fac
+  background-color: #B9DDFC !important
+
+.fad
+  color: #084A93 !important
+
+.fae
+  color: #FFB30B !important
+
+.linea-tiempo-d__item__number, .tarjeta--gris
+  background-color: #E4F8FB !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #00DEFC !important
+
+.slyder-a__bullets__item, .slyder-a__bullets__item--active
+  background-color: #00DEFC !important
+
+.bgt3-2
+  background-image: url('../assets/curso/temas/t2/f11.png')
+  background-size: cover
+  width: 800px
+
+.bgt4-1
+  background-image: url('../assets/curso/temas/t4/f7.png')
+  background-size: cover
+  width: 800px
+
+.acordion__accion__btn--b
+  background-color: #084A93 !important
+
+.tarjeta--azul 
+  background-color: #F6F6F6
+  
+
+.tarjeta.color-secundario--borde 
+  background-color: #E8E8E8
+  color: #084A93
+  border: solid 0px #B9DDFC
+
+.config-slyder-f 
+  background-color: #084A93 !important
+  height: 520px
+
+.color-cajon
+  background-color: #FFF4DA !important
+
+.color-cajon-segundo
+  background-color: #D9FAFF !important
+
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #FFB30B !important
+
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot 
+  border-color: #084A93
+  background-color: #084A93
+
+.tarjeta--pasos
+  background-color: #F7F7F7 !important
+
+.config-slyder
+  background-color: #F1F8FF !important
+
+.img-infografica-b__modal 
+  background-color: #ECF2F9 !important
+
+.img-infografica-b__modal__contenido div > * 
+  color: #12263F !important

@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p En esta unidad de creación de base de datos, el aprendiz afianzó los conceptos sobre bodega de datos, los cuales necesita para su construcción, acorde con las necesidades de cada organización. Igualmente, esta información le permite reconocer las diferentes opciones de arquitectura que se podrían abordar al momento de definir la creación de estas bases, cómo está organizado el departamento y los principales roles en el equipo con que va a realizar la implementación. Esto con el fin de brindar a la organización de saber diferentes entornos por medio de sus datos históricos, de una manera ágil y con la información necesaria, y así ver el comportamiento interno y tener un mejor control para la toma de decisiones en un futuro.
+    p.mb-5 Como aspecto final de este tema, se le invita a observar el siguiente mapa, que contempla de manera resumida la temática estudiada en el componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5
