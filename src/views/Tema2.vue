@@ -53,14 +53,12 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Sistema operativo y red
 
-
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.bgt3-2
-      .row.m-0.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p Antes de empezar, se debe tener en cuenta que estos requerimientos de sistemas operativos y de red no son algo que está establecido ni mucho menos estandarizado, aunque existe una guía básica que puede dar claridad de esto. Del mismo modo, estos requerimientos dependen de la magnitud del proyecto y de la necesidad de los clientes. Para la construcción de una bodega de datos, se deben cumplir algunos requisitos con las herramientas de software y hardware. En el caso del hardware, se requieren uno o más servidores para el almacenamiento de la información y la administración de la base de datos de la organización. Preferiblemente, el servidor debe ser escalable, porque en algunas ocasiones el proyecto de construcción de la bodega presenta un tipo de redimensionamiento a medida que avanza la implementación.
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/t2/f5.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Antes de empezar, se debe tener en cuenta que estos requerimientos de sistemas operativos y de red no son algo que está establecido ni mucho menos estandarizado, aunque existe una guía básica que puede dar claridad de esto. Del mismo modo, estos requerimientos dependen de la magnitud del proyecto y de la necesidad de los clientes. Para la construcción de una bodega de datos, se deben cumplir algunos requisitos con las herramientas de software y hardware. En el caso del hardware, se requieren uno o más servidores para el almacenamiento de la información y la administración de la base de datos de la organización. Preferiblemente, el servidor debe ser escalable, porque en algunas ocasiones el proyecto de construcción de la bodega presenta un tipo de redimensionamiento a medida que avanza la implementación.
 
 
 
