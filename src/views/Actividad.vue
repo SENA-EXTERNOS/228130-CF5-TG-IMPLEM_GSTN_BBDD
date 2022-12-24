@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Selección múltiple
+          h2 Bodegas de datos
         p.mb-4 Apreciado aprendiz, a continuación, encontrará diez enunciados relacionados con la experiencia de aprendizaje del presente componente. Seleccione la respuesta correcta de acuerdo con lo aprendido.
         p <b>¡Adelante!</b>
         .tarjeta.actividad.p-3
@@ -18,7 +18,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Selección múltiple
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
