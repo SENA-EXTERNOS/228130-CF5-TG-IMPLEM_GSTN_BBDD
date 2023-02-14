@@ -8,9 +8,6 @@
       h1 Diseño de bodega de datos
  
     p.mb-5 El diseño de bodegas de datos comprende una serie de pasos importantes. Es necesario conocer estos pasos, así como la definición del concepto.
-
-
-
     .tarjeta.tarjeta--azul.p-4.mb-5
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
@@ -19,7 +16,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t2/f1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t2/f1.svg', alt='')
              
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -27,7 +24,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t2/f3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t2/f3.svg', alt='')
 
 
         .row.justify-content-around.align-items-center
@@ -36,7 +33,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t2/f4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t2/f4.svg', alt='')
              
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -45,13 +42,13 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t2/f5.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t2/f5.jpg', alt='')
 
 
     Separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1  Sistema operativo y red
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Sistema operativo y red
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -69,7 +66,7 @@
     .row.justify-content-center.mb-3
       .col-5
         figure
-          img(src="@/assets/curso/temas/t2/f6.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/temas/t2/f6.svg", alt="")
       .col-7
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Herramientas de almacenamiento")
@@ -82,56 +79,56 @@
 
               p 
                 i.fas.fa-circle.text-small.fad.me-2
-                | SAP BusinessObjects
+                | SAP <em>BusinessObjects</em>
               p 
                 i.fas.fa-circle.text-small.fad.me-2
-                | SQL Server Integration Services
+                | SQL <em>Server Integration Services</em>
               p 
                 i.fas.fa-circle.text-small.fad.me-2
-                | Oracle Data Integrator
+                | <em>Oracle Data Integrator</em>
 
               p Los funcionarios técnicos al interior de la compañía, por su conocimiento en bases de datos y sistemas transaccionales, por lo general, emplean estas herramientas.
 
 
 
 
-          .row(titulo="Herramientas para la elaboración de reportes: ")
+          .row(titulo="Herramientas para la elaboración de reportes:")
             .col-md-12.mb-4.mb-md-0
-              p son los diferentes programas requeridos para construir la interfaz vista por los usuarios finales. A estos programas se les deben suministrar los recursos necesarios para que puedan visualizar la información requerida de manera detallada y a un nivel gerencial, para que obtengan con ella respuestas a preguntas específicas del negocio. Algunos de estos softwares orientados a crear y visualizar reportes son <i>Microsoft Power BI, Looker Studio</i> (antes Google Data Studio), Tableau, entre otros.
+              p Son los diferentes programas requeridos para construir la interfaz vista por los usuarios finales. A estos programas se les deben suministrar los recursos necesarios para que puedan visualizar la información requerida de manera detallada y a un nivel gerencial, para que obtengan con ella respuestas a preguntas específicas del negocio. Algunos de estos softwares orientados a crear y visualizar reportes son <i>Microsoft Power BI, Looker Studio</i> (antes Google Data Studio), Tableau, entre otros.
       
         
 
     Separador
-
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 OLAP
-  
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 OLAP
     .row.justify-content-center.mb-5
-      .col-md-8
+      .col-md-3
+        figure
+          img(src="@/assets/curso/temas/t2/1.svg", alt="")        
+      .col-md-9
+        p El procesamiento analítico en línea (OLAP), se refiere a un método para organizar y consultar datos en una estructura multidimensional. Además, a diferencia de los sistemas de datos relacionales, todas las posibles consultas se calculan de antemano, lo que proporciona al usuario de la empresa, una mayor agilidad y flexibilidad (Abelló et al., s. f.).  
+        p Los sistemas OLAP constan de ciertas características específicas, que los fabricantes de software intentan cumplir en mayor medida y que se basan en las doce leyes que recalcó Edgar F. Codd en 1993.      
+    .row.justify-content-center.mb-5
+      .col-md-9
         TabsA.color-primario.mb-5
-          .tarjeta.color-secundario--borde.p-4(titulo="Características principales")
+          .tarjeta.color-secundario--borde.p-4(titulo="Características<br> principales")
             p Las características principales de los sistemas OLAP comienzan con integrar una vista conceptual multidimensional, lo que permitirá que se trabaje a partir de métricas de negocio y sus dimensiones. Esto implica al servicio OLAP y a los usuarios aceptar un único esquema lógico de datos.
           
-          .tarjeta.color-secundario--borde.p-4(titulo="Características para resaltar")
+          .tarjeta.color-secundario--borde.p-4(titulo="Características<br> para resaltar")
             p Por otro lado, la arquitectura cliente/servidor, la dimensionalidad genérica y el rendimiento de informes consistente son características que vale la pena resaltar, debido a que este último no debería degradarse cuando el número de dimensiones del modelo se vaya incrementando.
           
-          .tarjeta.color-secundario--borde.p-4(titulo="Arquitectura cliente/servidor")
+          .tarjeta.color-secundario--borde.p-4(titulo="Arquitectura <br>cliente/servidor")
             p Asimismo, se debe tener en cuenta que la arquitectura cliente/servidor está basada en sistemas modulares y abiertos, que permitan la interacción y la colaboración. Por su parte, la dimensionalidad genérica se refiere a la capacidad que debe tener el sistema para crear todo tipo de dimensiones y con trabajos que sean proactivos en varias de ellas.
           
           .tarjeta.color-secundario--borde.p-4(titulo="Soporte multiusuario")
             p Por último, y no menos importante, se debe aclarar que los sistemas OLAP incumben en el permiso de soporte multiusuario; así que conviene tener una manipulación de datos intuitiva, dado que las personas a las que se destinan estos sistemas son usualmente analistas y altos ejecutivos. Por lo tanto, la interacción debe considerarse desde el prisma de la máxima usabilidad de los usuarios.
 
-      .col-md-4
+      .col-md-3
         figure
           img(src='@/assets/curso/temas/t2/f8.png', alt='programador con su laptop')
-
-
-
-    
     Separador
-
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Característica y entorno técnico del negocio
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Característica y entorno técnico del negocio
 
 
     .row.justify-content-center.mb-5
@@ -144,17 +141,15 @@
 
 
     Separador
-
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.4 Requerimientos del usuario
-
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Requerimientos del usuario
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p.mb-4 El análisis de los requisitos consiste en identificar las necesidades específicas de una determinada organización en materia de análisis de la información. Los datos recopilados en esta fase permiten señalar posteriormente los procesos empresariales que deben examinarse y las perspectivas organizacionales sobre las que debe evaluarse el rendimiento de la organización.
         p.mb-4 La lista de requisitos puede ser bastante abrumadora, pero es esencial ponerlos sobre la mesa antes de lanzarse al desarrollo del sistema ETL. Los requerimientos de este sistema son, en su mayoría, limitaciones con las que hay que vivir y a las que hay que adaptarlo. En el marco de estas condiciones, hay oportunidades para tomar sus propias decisiones, ejercer el juicio y aprovechar la creatividad, pero los requisitos dictan los elementos básicos que debe ofrecer el sistema ETL.
         .cajon.color-acento-contenido.p-4.mb-4
-          p Normalmente, en esta fase se debe ser previsor y pensar más allá de las necesidades actuales para satisfacer las futuras. Por ejemplo, si los usuarios han expresado su interés por un análisis mensual y se dispone de información más detallada, es necesario determinar si la solución de factorización de los datos puede beneficiarse de información pormenorizada en el futuro o si son suficientes ciertos niveles de amplificación de la misma.
+          p.mb-0 Normalmente, en esta fase se debe ser previsor y pensar más allá de las necesidades actuales para satisfacer las futuras. Por ejemplo, si los usuarios han expresado su interés por un análisis mensual y se dispone de información más detallada, es necesario determinar si la solución de factorización de los datos puede beneficiarse de información pormenorizada en el futuro o si son suficientes ciertos niveles de amplificación de la misma.
 
       .col-lg-4.tarjeta.p-3.order-first.order-lg-last( data-aos="fade-left")
         figure

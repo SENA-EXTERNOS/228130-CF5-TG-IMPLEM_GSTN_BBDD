@@ -7,8 +7,8 @@
         span 1
       h1 Introducción a la bodega de datos
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Definición
+    p.mb-5 Es importante tener presente que una bodega de datos, básicamente, se trata de una colección de datos, que está orientada a hechos relevantes del negocio; se encuentra de forma integrada y se acepta como una de las características más importantes, el manejo del tiempo como referencia para la toma de decisiones.
+
 
     h3(data-aos="fade-right")
       i.fas.fa-square.faa.me-3
@@ -79,11 +79,11 @@
         .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
             p.mb-3 En 1992, William H. Inmon publicó su libro <i>Building the Data Warehouse</i> (Construcción del almacén de datos), declarado como principio fundamental de la tecnología de los almacenes de datos (SAS, s. f.). En este último concepto Inmon utiliza un enfoque “descendente”, “donde primero se establece un repositorio centralizado, y luego se crean depósitos de datos – que contienen subconjuntos de datos específicos – dentro de ese repositorio” (SAS, s. f., párr. 2).
-            p.mb-0 Por otro lado, a mediados de los noventa, Ralph Kimball, otro experto en tecnología, publicó <i>The Data Warehouse Toolkit</i> (Herramientas para almacenes de datos). Kimball empleó una táctica un poco diferente sobre los <i>data warehousing</i>, con un enfoque “ascendente”, “donde se integran depósitos de datos individuales para crear un data warehouse” (SAS, s. f., párr. 3).
+            p.mb-0 Por otro lado, a mediados de los noventa, Ralph Kimball, otro experto en tecnología, publicó <i>The Data Warehouse Toolkit</i> (Herramientas para almacenes de datos). Kimball empleó una táctica un poco diferente sobre los <i>data warehousing</i>, con un enfoque “ascendente”, “donde se integran depósitos de datos <i>data warehouse</i>” (SAS, s. f., párr. 3).
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t1/f8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f8.png', alt='')
           
 
         .row.justify-content-around.align-items-center(titulo="Paso 2")
@@ -92,7 +92,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t1/f9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f9.png', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
@@ -100,9 +100,9 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 1.</b> <i>Referente de la metodología de Inmon</i>
+              p.mb-0 <i>Referente de la metodología de Inmon</i>
             figure
-              img(src='@/assets/curso/temas/t1/f10.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f10.svg', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-6.mb-4.mb-md-0
@@ -110,9 +110,9 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 2.</b> <i>Referente de la metodología de Kimball</i>
+              p.mb-0 <i>Referente de la metodología de Kimball</i>
             figure
-              img(src='@/assets/curso/temas/t1/f11.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f11.svg', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 5")
           .col-md-6.mb-4.mb-md-0
@@ -120,7 +120,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t1/f12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f12.png', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 6")
           .col-md-6.mb-4.mb-md-0
@@ -132,7 +132,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t1/f13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f13.png', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 7")
           .col-md-6.mb-4.mb-md-0
@@ -141,7 +141,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t1/f14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t1/f14.png', alt='')
 
         .row.justify-content-around.align-items-center(titulo="Paso 8")
           .col-md-6.mb-4.mb-md-0
@@ -150,29 +150,21 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 3.</b> <i>Referente de un modelado dimensional</i>
+              p.mb-0 <i>Referente de un modelado dimensional</i>
             figure
-              img(src='@/assets/curso/temas/t1/f7.svg', alt='Texto que describa la imagen')
-
-
-
+              img(src='@/assets/curso/temas/t1/f7.svg', alt='')
 
     Separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2  Elementos de una bodega de datos
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Elementos de una bodega de datos
 
     p.mb-4 Un almacén de datos se compone de muchos elementos diferentes y cada uno se implementa de varias maneras. Estos incluyen la información ilustrada por la siguiente infografía:
-
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      p <b>Figura 16.</b> <i>Servicios de red, virtualización y pruebas de red</i>
-
-
 
     ImagenInfografica.fab.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/t1/f15.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/t1/f15.svg', alt='')
 
       .tarjeta.fac.p-3(x="2%" y="48%" numero="")
         p <b>La amplitud:</b> el número de temas y focos diferentes.
@@ -199,14 +191,10 @@
 
     p.mb-5 Entre los elementos que existen en la arquitectura de una bodega de datos, se presentan a continuación seis de ellos:
 
-
-
     .row.justify-content-center.mb-3
       .col-5
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          p <b>Figura 4.</b> <i>Arquitectura de una bodega de datos</i>
         figure
-          img(src="@/assets/curso/temas/t1/f16.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/temas/t1/f16.svg", alt="")
       .col-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-acordeon")
           .row(titulo="Datos internos")
@@ -260,9 +248,9 @@
       
         .col-md-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            p <b>Figura 5.</b> <i>Referente de una data marts</i>
+            p.mb-0 <i>Referente de una data marts</i>
           figure
-            img(src='@/assets/curso/temas/t1/f17.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t1/f17.png', alt='')
             figcaption Nota. Reproducida de Advantages and Disadvantages of a Data Mart. Mbnehaddou. 
 
       .row.justify-content-around.align-items-center(numero="2" titulo="Cubos de información")
@@ -271,17 +259,16 @@
       
         .col-md-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            p <b>Figura 6.</b> <i>Referente de cubos de información</i>
+            p.mb-0 <i>Referente de cubos de información</i>
           figure
-            img(src='@/assets/curso/temas/t1/f18.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/t1/f18.png', alt='')
             figcaption Nota. Reproducida de Tratamiento de los datos: OLTP, OLAP, Data Warehouse. 
 
 
 
     Separador
-
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Implementación de bodega de datos
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Implementación de bodega de datos
 
     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
@@ -291,13 +278,6 @@
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-5 El diseño y la metodología de una bodega de datos debe ser ejecutado de acuerdo con los requerimientos definidos de cada empresa y el modelo de BI que se esté manejando. Además, se deben tener en cuenta los procesos de ETL, que crean el modelo de cómo se aloja la información en el almacén de datos, para que cada usuario tenga acceso a la información correcta.
-
-
-
-
-
-
-      
 </template>
 
 <script>

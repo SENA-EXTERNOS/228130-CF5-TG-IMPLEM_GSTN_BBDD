@@ -3,8 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p En esta unidad de creación de base de datos, el aprendiz afianzó los conceptos sobre bodega de datos, los cuales necesita para su construcción, acorde con las necesidades de cada organización. Igualmente, esta información le permite reconocer las diferentes opciones de arquitectura que se podrían abordar al momento de definir la creación de estas bases, cómo está organizado el departamento y los principales roles en el equipo con que va a realizar la implementación. Esto con el fin de brindar a la organización de saber diferentes entornos por medio de sus datos históricos, de una manera ágil y con la información necesaria, y así ver el comportamiento interno y tener un mejor control para la toma de decisiones en un futuro.
-    p.mb-5 Como aspecto final de este tema, se le invita a observar el siguiente mapa, que contempla de manera resumida la temática estudiada en el componente formativo:
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

@@ -10,12 +10,9 @@
     .row.justify-content-around.align-items-center(titulo="Paso 5")
       .col-2
         figure
-          img(src='@/assets/curso/temas/t4/f1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/t4/f1.svg', alt='')
       .col-md-9.mb-4.mb-md-0
         p Para llegar a la construcción de una bodega de datos, se necesitan dos tipos de herramientas: <i>hardware</i> y <i>software</i>. Por un lado, la herramienta <i>hardware</i> es un servidor para el almacenamiento y manejo de la base de datos, que debe ser escalable para un redimensionamiento, a medida que se avanza en la implementación. 
-
-
-
 
     .tarjeta.config-slyder.p-4.mb-5
       SlyderA(tipo="b")
@@ -56,7 +53,7 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 7
-                | Determinar los procesos de administración futuros del <i></i>.
+                | Determinar los procesos de administración futuros del <i>data warehouse</i>.
 
               li 
                 .lista-ol--cuadro__vineta
@@ -66,7 +63,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f1.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f1.png', alt='')
               
 
         .row.justify-content-around.align-items-center
@@ -76,7 +73,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f2.png', alt='')
 
 
         .row.justify-content-around.align-items-center
@@ -85,7 +82,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f3.png', alt='')
              
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -94,7 +91,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f4.png', alt='')
 
 
 
@@ -104,7 +101,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f5.png', alt='')
               
 
         .row.justify-content-around.align-items-center
@@ -113,22 +110,24 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f6.png', alt='')
               
 
     Separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.1 Interfases 
-
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.bgt4-1
-      .row.m-0.justify-content-around.align-items-center
-        .col-lg-4.mb-4.mb-lg-0
-          
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            h3.mb-4 ¿Qué es una interfaz?
-            p Cuando se habla de esta palabra, se pueden encontrar muchos derivativos en el campo de la tecnología, tales como interfaz de usuario, interfaz de programación, etc. En el ámbito de la bodega de datos, interfaz es el conjunto de métodos que deben implementarse de forma obligatoria y que contienen una clase, aunque no tienen por qué comportarse del mismo modo.
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Interfases 
+    .row.justify-content-center.align-items-center
+      .col-lg-11
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0.p-0
+              figure
+                img(src="@/assets/curso/temas/t1/2.png", alt="imagen relacionada")
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                h4.mb-4 ¿Qué es una interfaz?
+                p Cuando se habla de esta palabra, se pueden encontrar muchos derivativos en el campo de la tecnología, tales como interfaz de usuario, interfaz de programación, etc. En el ámbito de la bodega de datos, interfaz es el conjunto de métodos que deben implementarse de forma obligatoria y que contienen una clase, aunque no tienen por qué comportarse del mismo modo.
 
 
     p.mb-5 Es necesario contar con cuatro principios básicos para tener una interfaz exitosa. Estos son los siguientes:
@@ -136,31 +135,25 @@
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/t4/f8.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/t4/f8.png', alt='')
      
 
-      div(x="5%" y="25%" tooltip="")
+      div(x="5%" y="25%" tooltip="Ver mas")
         h5.mb-3 Centrarse en el negocio
         p Determinar la viabilidad e identificar los requerimientos del negocio y su valor asociado, en este análisis de los requerimientos se identifican las necesidades específicas que tiene una organización con respecto al análisis de la información. También se debe ser previsor, pensar más allá de la necesidad actual para cubrir la futura, es conveniente hacer un diagnóstico y conceptualización adecuada del mismo, identificar claramente los objetivos y el contenido del proyecto.
 
-      div(x="5%" y="75%" tooltip="")
+      div(x="5%" y="75%" tooltip="Ver mas")
         .h5.mb-3 Construir una infraestructura de información adecuada
         p Diseñar una base única, integrada, fácil de usar, y de un alto  rendimiento donde se reflejen los requerimientos del negocio.
 
-      div(x="96%" y="25%" tooltip="")
+      div(x="96%" y="25%" tooltip="Ver mas")
         .h5.mb-3 Realizar entregas en incrementos significativos
         p Incrementos entregables en plazos, tipo metodología ágil.
-      div(x="96%" y="75%" tooltip="")
+      div(x="96%" y="75%" tooltip="Ver mas")
         .h5.mb-3 Ofrecer la solución completa
         p Crear un almacén de datos sólido, un buen diseño, con calidad probada y accesible.
 
-
-
-
-
-
-
-
+    p.mb-5 Para esta unidad de estudio, se toma como base la metodología Kimball, para realizar paso a paso la interfaz de una bodega de datos del área de ventas de una organización. Es de esta forma, que se deben identificar las siguientes tareas a desarrollar:
     .tarjeta.tarjeta--pasos.p-4.mb-5
       PasosB.color-acento-contenido
 
@@ -209,7 +202,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f9.png', alt='')
 
         .row.justify-content-around.align-items-center(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -247,7 +240,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f10.png', alt='')
               
         .row.justify-content-around.align-items-center(titulo="")
           .col-md-6.mb-4.mb-md-0
@@ -270,11 +263,11 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f11.png', alt='')
 
 
 
-
+    p.mb-5 A continuación, se definen los requerimientos generales (cada organización tiene sus propios requerimientos) de este módulo, para el área de ventas de una organización:
 
     .tarjeta.linea-tiempo-dos.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
@@ -296,10 +289,10 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 11.</b> <i> Referente de modelo multidimensional</i>
+              p.mb-0 <i> Referente de modelo multidimensional</i>
             figure
-              img(src='@/assets/curso/temas/t4/f12.png', alt='Texto que describa la imagen')
-              figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
+              img(src='@/assets/curso/temas/t4/f12.png', alt='')
+              figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015). 
 
         .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
@@ -307,9 +300,9 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 12.</b> <i>Referente de un modelo físico</i>
+              p.mb-0 <i>Referente de un modelo físico</i>
             figure
-              img(src='@/assets/curso/temas/t4/f13.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f13.png', alt='')
               figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-around.align-items-center(titulo="Paso 3")
@@ -318,9 +311,9 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Tabla 1.</b> <i>Referente de características de un servidor</i>
+              p.mb-0 <i>Referente de características de un servidor</i>
             figure
-              img(src='@/assets/curso/temas/t4/f14.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f14.png', alt='')
               figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-around.align-items-center(titulo="Paso 4")
@@ -329,9 +322,9 @@
         
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Figura 14.</b> <i>Referente de un modelo físico</i>
+              p.mb-0 <i>Referente de un modelo físico</i>
             figure
-              img(src='@/assets/curso/temas/t4/f15.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f15.png', alt='')
               figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-around.align-items-center(titulo="Paso 5")
@@ -339,31 +332,22 @@
 
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Tabla 2.</b> <i>Referente de un modelado dimensional</i>
+              p.mb-0 <i>Referente de un modelado dimensional</i>
             figure
-              img(src='@/assets/curso/temas/t4/f16.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f16.png', alt='')
 
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p <b>Tabla 3.</b> <i> Referente de un modelado dimensional</i>
+              p.mb-0 <i> Referente de un modelado dimensional</i>
             figure
-              img(src='@/assets/curso/temas/t4/f17.png', alt='Texto que describa la imagen')
-
-
-
-
-
+              img(src='@/assets/curso/temas/t4/f17.png', alt='')
 
     Separador
 
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.2 Usuarios
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Usuarios
 
     p.mb-5 Cada uno de los usuarios y sus roles son fundamentales para el éxito de una bodega de datos.
-
-
-
-
 
     .tarjeta.config-slyder.p-4.mb-5
       SlyderA(tipo="b")
@@ -373,7 +357,7 @@
             p La responsabilidad de un gestor de proyectos es crear, gestionar y comunicar, tanto verbalmente como por escrito, de manera clara los objetivos al equipo. Debe, además, plantear y defender la ejecución acertada de los pasos para realizar un proyecto y cumplir con los objetivos. También debe tener la habilidad de ser receptivo a las necesidades de los miembros del equipo y dedicarse a la finalización con éxito de todas las tareas del proyecto.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f18.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f18.png', alt='')
               
 
         .row.justify-content-around.align-items-center
@@ -383,7 +367,7 @@
             
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f19.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f19.png', alt='')
 
 
         .row.justify-content-around.align-items-center
@@ -393,7 +377,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f20.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f20.png', alt='')
              
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -403,7 +387,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f21.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f21.png', alt='')
 
 
 
@@ -414,17 +398,17 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f22.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f22.png', alt='')
               
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4.mb-4 Data strategist
-            p El rol del estratega de datos puede ser similar al de un analista de datos, con la diferencia de que el primero da respuesta a la fase final del proceso del big data. Es la persona que tiene la capacidad analítica y soltura a la hora de entender datos, pero que, sobre todo, tiene mucha creatividad y visión estratégica a partir de la información entregada por el data scientist. Además, es quien está en contacto directo con el cliente final, lo que le permite percibir las necesidades reales del mercado.
+            p El rol del estratega de datos puede ser similar al de un analista de datos, con la diferencia de que el primero da respuesta a la fase final del proceso del <i>Big data</i>. Es la persona que tiene la capacidad analítica y soltura a la hora de entender datos, pero que, sobre todo, tiene mucha creatividad y visión estratégica a partir de la información entregada por el data scientist. Además, es quien está en contacto directo con el cliente final, lo que le permite percibir las necesidades reales del mercado.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f23.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f23.png', alt='')
               
 
         .row.justify-content-around.align-items-center
@@ -433,7 +417,7 @@
             p El analista recopila, consolida, organiza y prioriza las necesidades y problemas empresariales que presentan los usuarios. La función de un analista de negocios es utilizar los datos para resolver los problemas empresariales trabajando con el equipo de inteligencia de negocio.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f24.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f24.png', alt='')
               
 
         .row.justify-content-around.align-items-center
@@ -443,7 +427,7 @@
             
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f25.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f25.png', alt='')
 
 
         .row.justify-content-around.align-items-center
@@ -453,7 +437,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f26.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f26.png', alt='')
              
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -463,7 +447,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/t4/f27.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/t4/f27.png', alt='')
 
 
 
@@ -471,45 +455,25 @@
 
     Separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.3 Fuentes de datos 
+    .titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h3 Fuentes de datos 
 
 
 
     .row.justify-content-around.align-items-center.mb-5
       .col-md-6
         figure
-          img(src='@/assets/curso/temas/t4/f28.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/t4/f28.png', alt='')
 
       .col-md-6.mb-4.mb-md-0
         h3(data-aos="fade-right")
           i.fas.fa-square.fae.me-3
-          | ¿Qué es una bodega de datos?
+          | ¿Qué es una fuente de datos?
         p.mb-4 Es el lugar donde se obtienen datos e informes, que pueden ser una base de datos, un archivo plano, un archivo XML o cualquier otro formato que un sistema pueda leer. Contiene información detallada y que es utilizada en el proceso empresarial para generar análisis que ayudarán a tomar decisiones futuras. Actúa como agente de reestructuración de los datos de la aplicación para hacerla más fácil de consultar e informar.
         p Sobre la importancia de una fuente de datos, el análisis de esta desempeña un papel fundamental en un proyecto de almacenamiento de información, porque todos los procesos posteriores de extracción y transformación dependen de los datos que contienen estas fuentes, teniendo en cuenta su estructura en cada dato.
-
-
-      
-
     .col-md-10.mx-auto.mb-5
       .cajon.color-acento-botones.p-4.color-cajon-segundo
-        p.mb-0 <b>¡Felicitaciones!</b> En este momento usted ha finalizado el componente formativo con el cual ha aprendido sobre diseño, arquitectura e implementación de las bodegas de bases de datos. Ahora se le invita a revisar la síntesis, donde podrá recordar los saberes que ha desarrollado y realizar la actividad de aprendizaje, donde probará lo aprendido. Podrá, además, consultar el material complementario y el glosario, como refuerzos para profundizar en el conocimiento. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>

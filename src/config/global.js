@@ -35,26 +35,6 @@ export default {
         numero: '1',
         titulo: 'Introducción a la bodega de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Definición',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Elementos de una bodega de datos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Implementación de bodega de datos',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
@@ -63,32 +43,6 @@ export default {
         numero: '2',
         titulo: 'Diseño de bodega de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Sistema operativo y red',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'OLAP',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Característica y entorno técnico del negocio',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Requerimientos del usuario',
-            hash: 't_2_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -96,32 +50,6 @@ export default {
         numero: '3',
         titulo: 'Arquitectura de una bodega de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Arquitectura de una capa',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Arquitectura de dos capas',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Arquitectura de tres capas',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: '<i>Data marts</i>',
-            hash: 't_3_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -129,26 +57,6 @@ export default {
         numero: '4',
         titulo: 'Implementación de una bodega de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Interfases',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Usuarios',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Fuentes de datos',
-            hash: 't_4_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -193,92 +101,56 @@ export default {
   },
   complementario: [
     {
-      tema: '<i>Data warehouse</i>',
+      tema: 'Introducción a la bodega de datos',
       referencia:
-        'Conesa, J. y Curto, J. (2015). ¿Cómo crear un data warehouse? Editorial UOC.',
-      tipo: 'Libro',
-      link: 'https://www.editorialuoc.cat/como-crear-un-data-warehouse ',
-    },
-    {
-      tema: 'Implementación de una bodega de datos',
-      referencia:
-        'Conexión ESAN. (2020, 1 de julio). Data warehouse: pasos para construirlo con éxito. ESAN Business.',
+        'Conexión ESAN. (2020). Data warehouse: pasos para construirlo con éxito. <i>ESAN Business</i>.',
       tipo: 'Página web',
       link:
         'https://www.esan.edu.pe/conexion-esan/data-warehouse-pasos-para-construirlo-con-exito',
     },
     {
-      tema: 'Ingeniería de <i>software</i>',
+      tema: 'Introducción a la bodega de datos',
       referencia:
-        'Echeverri, J., Aristizábal, M., González, L., Urrego, G., Polo, R., et al. (2013). Reflexiones sobre ingeniería de requisitos y pruebas de software. (2013). Corporación Universitaria Remington; Organización LACREST.',
-      tipo: 'Libro',
-      link:
-        'https://www.uniremington.edu.co/wp-content/uploads/2019/01/LACREST-2013-uniremington.pdf ',
+        'Luna, E. y García, F. (2000). El repositorio de metadatos en un <i>data warehouse</i>. Revista Facultad de Ingeniería, (8), p. 10-15.',
+      tipo: 'Artículo',
+      link: 'https://www.redalyc.org/pdf/114/11400802.pdf',
     },
     {
-      tema: 'Ciencia de datos',
-      referencia:
-        'García, J., Berlanga, A., Molina, J. M., Patricio M. A., Bustamante A. L. y Padilla, W. R., (2018). Ciencia de datos. Técnicas analíticas y aprendizaje estadístico. Altaria.',
-      tipo: 'Libro',
-      link: 'https://dialnet.unirioja.es/servlet/libro?codigo=763464 ',
-    },
-    {
-      tema: 'Estructura secuencial',
-      referencia: 'GSL Industrias. (2021, 7 de junio). Estructura secuencial.',
+      tema: 'Introducción a la bodega de datos',
+      referencia: 'SAP. (s. f.). <i>¿Qué es un almacén de datos?</i>',
       tipo: 'Página web',
       link:
-        'https://industriasgsl.com/blogs/automatizacion/que-es-la-estructura-secuencial ',
+        'https://www.sap.com/latinamerica/insights/what-is-a-data-warehouse.html',
     },
     {
-      tema: 'Programación',
+      tema: 'Diseño de bodega de datos',
       referencia:
-        'Lewis, R. M. (2017). Tutorial fácil de seguir para aprender la programación de Python en menos de una semana.',
+        'Echeverri, J., Aristizábal, M., González, L., Urrego, G., Polo, R., et al. (2013). <i>Reflexiones sobre ingeniería de requisitos y pruebas de software</i>. Corporación Universitaria Remington; Organización LACREST.',
+      tipo: 'Libro',
+      link:
+        'https://www.uniremington.edu.co/wp-content/uploads/2019/01/LACREST-2013-uniremington.pdf',
+    },
+    {
+      tema: 'Diseño de bodega de datos',
+      referencia: 'GSL Industrias. (2021). <i>Estructura secuencial</i>.',
+      tipo: 'Página web',
+      link:
+        'https://industriasgsl.com/blogs/automatizacion/que-es-la-estructura-secuencial',
+    },
+    {
+      tema: 'Diseño de bodega de datos',
+      referencia:
+        'Lewis, R. M. (2017). <i>Tutorial fácil de seguir para aprender la programación de Python en menos de una semana</i>.',
       tipo: 'Libro digital',
-      link: 'https://bit.ly/3glAJ4w ',
+      link: 'https://bit.ly/3glAJ4w',
     },
     {
-      tema: '<i>Data warehouse</i>',
+      tema: 'Arquitectura de una bodega de datos',
       referencia:
-        'Luna, E. y García, F. (2000). El repositorio de metadatos en un data warehouse. Revista Facultad de Ingeniería, (8), 10-15.',
-      tipo: 'Revista',
-      link: 'https://www.redalyc.org/pdf/114/11400802.pdf ',
-    },
-    {
-      tema: 'Bases de datos relacionales',
-      referencia:
-        'Martínez, F. J. y Gallegos, A. (2017). Programación de bases de datos relacionales. DELAU.',
-      tipo: 'Libro',
-      link: 'https://librerianacional.com/producto/350241 ',
-    },
-    {
-      tema: '<i>Software</i>',
-      referencia:
-        'Medina, J., Pineda, E. y Téllez, F. R. (2019). Requerimientos de software: prototipado, software heredado y análisis de documentos. Ingeniería y Desarrollo, 37(2), 327-345. ',
-      tipo: 'Revista',
+        'Medina, J., Pineda, E. y Téllez, F. R. (2019). Requerimientos de software: prototipado, software heredado y análisis de documentos. <i>Ingeniería y Desarrollo</i>, 37(2), p. 327-345.',
+      tipo: 'Artículo',
       link:
-        'https://rcientificas.uninorte.edu.co/index.php/ingenieria/article/view/11452/214421444623 ',
-    },
-    {
-      tema: 'Elementos de una bodega de datos',
-      referencia: 'SAP. (s. f.). ¿Qué es un almacén de datos?',
-      tipo: 'Página web',
-      link:
-        'https://www.sap.com/latinamerica/insights/what-is-a-data-warehouse.html ',
-    },
-    {
-      tema: 'Sistema de bases de datos',
-      referencia:
-        'Silberschatz, A., Korth, H. F. y Sudarshan, S. (2019). Database System Concepts (7.a ed.). McGraw-Hill.',
-      tipo: 'Libro',
-      link: 'https://www.db-book.com/ ',
-    },
-    {
-      tema: 'Bases de datos',
-      referencia:
-        'Wanumen, L. F., Rivas, E. y Mosquera, D. J. (2018). Bases de datos en SQL server. Ecoe Ediciones.',
-      tipo: 'Libro',
-      link:
-        'https://www.buscalibre.com.co/libro-bases-de-datos-en-sql-server/9789587715705/p/50093560 ',
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0122-34612019000200327',
     },
   ],
   glosario: [
@@ -336,43 +208,44 @@ export default {
     {
       referencia:
         'Abelló, A., Curto, J., Rius, À., Serra, M., Samos, J. y Vidal, J. (s. f.). Introducción al Data Warehouse. UOC. ',
-      link: 'https://bit.ly/3Ay8Woh ',
+      link: 'https://bit.ly/3Ay8Woh',
     },
     {
       referencia:
-        'Bahamón, J. H. (2003). Propuesta de un método para el diseño y modelado de una bodega de datos. Sistemas & Telemática,13-37. ',
+        'Bahamón, J. H. (2003). Propuesta de un método para el diseño y modelado de una bodega de datos. <i>Sistemas & Telemática</i>,p. 13-37.',
       link: 'https://www.icesi.edu.co/contenido/pdfs/sistemas_telematica2.pdf',
     },
     {
-      referencia: 'Biscobing, J. (2021). Almacén de datos (data warehouse). ',
+      referencia:
+        'Biscobing, J. (2021). <i>Almacén de datos (data warehouse)</i>. ',
       link:
         'https://www.computerweekly.com/es/definicion/Almacen-de-datos-data-warehouse',
     },
     {
-      referencia: 'Evaluando Software. (2022, 21 de febrero). ABC del OLAP.',
+      referencia: 'Evaluando Software. (2022). <i>ABC del OLAP.</i>',
       link: 'https://www.evaluandosoftware.com/abc-del-olap/',
     },
     {
       referencia:
-        'KeepCoding. (2022a, 27 de enero). ¿Qué es el data mining o minado de datos? ',
-      link: 'https://keepcoding.io/blog/que-es-el-data-mining/ ',
+        'KeepCoding. (2022). <i>¿Qué es el data mining o minado de datos?</i>',
+      link: 'https://keepcoding.io/blog/que-es-el-data-mining/',
     },
     {
       referencia:
-        'KeepCoding. (2022b, 1 de junio). Glosario de Data Warehouse: 7 conceptos fundamentales. ',
+        'KeepCoding. (2022). <i>Glosario de Data Warehouse: 7 conceptos fundamentales.</i>',
       link:
-        'https://keepcoding.io/blog/glosario-data-warehouse-conceptos-fundamentales/ ',
+        'https://keepcoding.io/blog/glosario-data-warehouse-conceptos-fundamentales/',
     },
     {
       referencia:
-        'Naeem, T. (2020, 3 de febrero). Conceptos de Data Warehouse: enfoque de Kimball vs. Inmon. Astera. ',
-      link: 'https://www.astera.com/es/type/blog/data-warehouse-concepts/ ',
+        'Naeem, T. (2020). <i>Conceptos de Data Warehouse: enfoque de Kimball vs. Inmon</i>. Astera.',
+      link: 'https://www.astera.com/es/type/blog/data-warehouse-concepts/',
     },
     {
       referencia:
-        'PowerData. (2016, 9 de abril). Data warehouse concepts: tu glosario de almacén de datos.',
+        'PowerData. (2016). <i>Data warehouse concepts: tu glosario de almacén de datos.</i>',
       link:
-        'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/data-warehouse-concepts-tu-glosario-de-almacen-de-datos ',
+        'https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/data-warehouse-concepts-tu-glosario-de-almacen-de-datos',
     },
     {
       referencia:
@@ -381,7 +254,7 @@ export default {
     },
     {
       referencia:
-        'SAS. (s. f.). Data Warehouse. Qué es y por qué es importante.',
+        'SAS. (s.f.). Data Warehouse. Qué es y por qué es importante.',
       link:
         'https://www.sas.com/es_pe/insights/data-management/data-warehouse.html',
     },
