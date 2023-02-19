@@ -181,12 +181,12 @@ export default {
     {
       termino: 'MOLAP',
       significado:
-        'Multi-dimensional online analytical processing, en español: procesamiento analítico multidimensional en línea, es una herramienta OLAP cuyo sistema guarda los datos en una matriz multidimensional de almacenamiento y requiere que el procesamiento y la acumulación de información estén contenidos en el cubo OLAP (Evaluando Software, 2022).',
+        '<em>Multi-dimensional online analytical processing</em>, en español: procesamiento analítico multidimensional en línea, es una herramienta OLAP cuyo sistema guarda los datos en una matriz multidimensional de almacenamiento y requiere que el procesamiento y la acumulación de información estén contenidos en el cubo OLAP (Evaluando Software, 2022).',
     },
     {
       termino: 'ODS',
       significado:
-        'Operational data store, o almacén operacional de datos, es un contenedor de datos activos, diseñado para integrar información de múltiples fuentes (KeepCoding, 2022b).',
+        '<em>Operational data store</em>, o almacén operacional de datos, es un contenedor de datos activos, diseñado para integrar información de múltiples fuentes (KeepCoding, 2022b).',
     },
     {
       termino: 'OLAP',
@@ -196,7 +196,7 @@ export default {
     {
       termino: 'ROLAP',
       significado:
-        'Relational online analytical processing, en español: procesamiento analítico en línea relacional, es una herramienta OLAP construida sobre una base de datos relacional. En este sistema tiene importancia la tabla de hechos, donde se almacena la historia de la información relevante para la empresa que requiere ser estudiada (Evaluando Software, 2022).',
+        '<em>Relational online analytical processing</em>, en español: procesamiento analítico en línea relacional, es una herramienta OLAP construida sobre una base de datos relacional. En este sistema tiene importancia la tabla de hechos, donde se almacena la historia de la información relevante para la empresa que requiere ser estudiada (Evaluando Software, 2022).',
     },
     {
       termino: 'SQL',
@@ -249,12 +249,12 @@ export default {
     },
     {
       referencia:
-        'Roldán, D. (2015). Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Institucional Unilibre.',
+        'Roldán, D. (2015). <em>Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa</em> [Tesis de pregrado, Universidad Libre]. Repositorio Institucional Unilibre.',
       link: 'https://bit.ly/3UYtKxy ',
     },
     {
       referencia:
-        'SAS. (s.f.). Data Warehouse. Qué es y por qué es importante.',
+        'SAS. (s.f.). <em>Data Warehouse. Qué es y por qué es importante</em>.',
       link:
         'https://www.sas.com/es_pe/insights/data-management/data-warehouse.html',
     },

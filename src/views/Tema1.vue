@@ -13,7 +13,7 @@
     h3(data-aos="fade-right")
       i.fas.fa-square.faa.me-3
       | ¿Qué es una bodega de datos?
-    
+
     .row.justify-content-center.mb-5
       .col-md-8.order-md-first.order-last
         p.mb-4 También llamado <i>data warehouse</i> (DW), es un sistema de almacenamiento digital de datos que maneja grandes cantidades de información, de diferentes fuentes, con el objetivo de alimentar los procesos de inteligencia de negocios (BI, por sus siglas en inglés), informes, consultas y analíticas (SAP, s. f.). Del mismo modo, el DW se encarga de dar soporte a los diferentes requerimientos de manera que las empresas puedan convertir sus datos en información valiosa y tomar mejores decisiones a partir de estos. En suma, un DW guarda los datos tanto históricos como actuales en una sola ubicación y son la única fuente confiable de información para una organización (SAP, s. f.).
@@ -29,24 +29,24 @@
             img(src='@/assets/curso/temas/t1/f2.png', alt='')
 
           .col-md-6.mb-4.mb-md-0
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Almacenar datos de calidad que sean útiles para su uso en los análisis de la empresa.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Mantener un registro completo de las actividades de la empresa.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Ayudar al funcionamiento de las aplicaciones que permiten la toma de decisiones.
-           
+
       .py-4.py-md-5(titulo="Los siguientes son los tipos de datos en un DW")
         .row.justify-content-around.align-items-center
           .col-md-6.tarjeta.fcasiblanco.p-3
             img(src='@/assets/curso/temas/t1/f3.png', alt='')
           .col-md-6.mb-4.mb-md-0
-            p <b>Datos de funcionamiento de la empresa:</b> se producen por aplicaciones corporativas, como las que la organización utiliza para satisfacer los pedidos de productos de los clientes o para gestionar las transacciones financieras. Son la materia prima para un almacén de datos. 
+            p <b>Datos de funcionamiento de la empresa:</b> se producen por aplicaciones corporativas, como las que la organización utiliza para satisfacer los pedidos de productos de los clientes o para gestionar las transacciones financieras. Son la materia prima para un almacén de datos.
 
       .py-4.py-md-5(titulo="Integración de los datos del negocio")
         .row.justify-content-around.align-items-center
@@ -55,13 +55,13 @@
 
           .col-md-6.mb-4.mb-md-0
             p Se construye para mejorar la calidad y sincronizar dos o más aplicaciones corporativas, como una lista maestra de clientes. Los datos se aprovechan para integrar aplicaciones que no fueron diseñadas para funcionar entre sí.
-          
-      .py-4.py-md-5(titulo="Estructuras dobles")
+
+      .py-4.py-md-5(titulo="Datos de seguimiento del negocio:")
         .row.justify-content-around.align-items-center
           .col-md-6.tarjeta.fcasiblanco.p-3
             img(src='@/assets/curso/temas/t1/f5.png', alt='')
           .col-md-6.mb-4.mb-md-0
-            p Datos de seguimiento del negocio: presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
+            p presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
 
     .bloque-texto-a.color-primario.invert.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
@@ -78,18 +78,18 @@
       LineaTiempoC.color-primario(text-small)
         .row.justify-content-around.align-items-center(titulo="Paso 1")
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 En 1992, William H. Inmon publicó su libro <i>Building the Data Warehouse</i> (Construcción del almacén de datos), declarado como principio fundamental de la tecnología de los almacenes de datos (SAS, s. f.). En este último concepto Inmon utiliza un enfoque “descendente”, “donde primero se establece un repositorio centralizado, y luego se crean depósitos de datos – que contienen subconjuntos de datos específicos – dentro de ese repositorio” (SAS, s. f., párr. 2).
-            p.mb-0 Por otro lado, a mediados de los noventa, Ralph Kimball, otro experto en tecnología, publicó <i>The Data Warehouse Toolkit</i> (Herramientas para almacenes de datos). Kimball empleó una táctica un poco diferente sobre los <i>data warehousing</i>, con un enfoque “ascendente”, “donde se integran depósitos de datos <i>data warehouse</i>” (SAS, s. f., párr. 3).
-        
+            p.mb-3 En 1992, William H. Inmon publicó su libro <i>Building the Data Warehouse (Construcción del almacén de datos)</i>, declarado como principio fundamental de la tecnología de los almacenes de datos (SAS, s. f.). En este último concepto Inmon utiliza un enfoque “descendente”, “donde primero se establece un repositorio centralizado, y luego se crean depósitos de datos – que contienen subconjuntos de datos específicos – dentro de ese repositorio” (SAS, s. f., párr. 2).
+            p.mb-0 Por otro lado, a mediados de los noventa, Ralph Kimball, otro experto en tecnología, publicó <i>The Data Warehouse Toolkit (Herramientas para almacenes de datos)</i>. Kimball empleó una táctica un poco diferente sobre los <i>data warehousing</i>, con un enfoque “ascendente”, “donde se integran depósitos de datos <i>data warehouse</i>” (SAS, s. f., párr. 3).
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f8.png', alt='')
-          
+
 
         .row.justify-content-around.align-items-center(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
             p Cuando se trata del diseño de bodegas de datos (DWH, por sus siglas en inglés), existen dos de los más usados enfoques de almacenamiento: el de Inmon y el de Kimball. Durante años se ha debatido sobre qué metodología es mejor y más efectiva para las empresas; sin embargo, ambas tienen sus ventajas y desventajas (Naeem, 2020).
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f9.png', alt='')
@@ -97,7 +97,7 @@
         .row.justify-content-around.align-items-center(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
             p <b>1. Metodología Inmon:</b> cuenta “con un esquema que parte de la construcción del modelo de datos corporativos, elaborado al más alto nivel de abstracción, para luego derivar la estructura del modelo de datos, para el diseño de la bodega” (Bahamón, 2003, p. 15).
-        
+
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               p.mb-0 <i>Referente de la metodología de Inmon</i>
@@ -107,7 +107,7 @@
         .row.justify-content-around.align-items-center(titulo="Paso 4")
           .col-md-6.mb-4.mb-md-0
             p <b>2. Metodología Kimball:</b> cuenta “con un esquema centrado en la identificación de los procesos de la empresa, como elemento clave para la definición de la estructura de variables y dimensiones” (Bahamón, 2003, p. 15).
-        
+
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               p.mb-0 <i>Referente de la metodología de Kimball</i>
@@ -117,7 +117,7 @@
         .row.justify-content-around.align-items-center(titulo="Paso 5")
           .col-md-6.mb-4.mb-md-0
             p El almacén de datos proporciona la plataforma para implementar, gestionar y entregar estos activos de datos clave. Por tanto, es el proceso de creación de una solución a la gestión de los datos por medio de una arquitectura que permita el procesamiento analítico y de la información, a pesar de las barreras de plataforma, aplicación, organización, entre otras.
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f12.png', alt='')
@@ -138,7 +138,7 @@
           .col-md-6.mb-4.mb-md-0
             p.mb-3 Las bodegas de datos se basan en un modelo multidimensional. <b>¿Qué es una base de datos multidimensional?</b>
             p Es una matriz de dimensiones que permite guardar y recuperar eficientemente un gran volumen de datos, relacionados, vistos y analizados desde diferentes perspectivas. Ofrecen, además, una mejor comprensión y consulta de la información por medio de análisis complejos.
-        
+
           .col-md-6
             figure
               img(src='@/assets/curso/temas/t1/f14.png', alt='')
@@ -147,7 +147,7 @@
           .col-md-6.mb-4.mb-md-0
             h3.mb-2 ¿Qué es un modelado dimensional?
             p Es una matriz que contiene todos los datos de una forma sencilla, estándar y accesible. Se compone de una tabla de hechos y varias tablas de dimensión.
-        
+
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               p.mb-0 <i>Referente de un modelado dimensional</i>
@@ -183,7 +183,7 @@
 
       .tarjeta.fac.p-3(x="72%" y="76%" numero="")
         p Los activos de datos, los elementos, el nivel de detalle de cada elemento y la cantidad de historial.
-      
+
       .tarjeta.fac.p-3(x="87%" y="48%" numero="")
         p La complejidad arquitectónica general del entorno.
 
@@ -213,27 +213,27 @@
             p Es un concepto y una tecnología para la BI, que permite ejecutar un análisis multidimensional de los datos de una forma rápida e interactiva. Igualmente, ayuda a obtener información resumida de grandes bases de datos u OLTP, con la finalidad de tener análisis previamente calculados, que aceleren la búsqueda de mucha información. El OLAP se emplea principalmente en informes de negocios para las ventas, en <i>marketing</i>, en informes de dirección, en minería de datos y áreas similares.
 
           .row(titulo="<i>Data mining</i>")
-            p También conocido en español como minería de datos, son aquellos procesos y técnicas a través de los cuales se pueden explorar y comprender las grandes bases de datos y sacarles provecho, con el propósito de encontrar patrones que permitan entender qué pasó, qué está pasando y así predecir lo que pasará en el futuro.
+            p También conocido en español como #[em minería de datos], son aquellos procesos y técnicas a través de los cuales se pueden explorar y comprender las grandes bases de datos y sacarles provecho, con el propósito de encontrar patrones que permitan entender qué pasó, qué está pasando y así predecir lo que pasará en el futuro.
 
           .row(titulo="Características")
             p.mb-3 Un sistema de almacén de datos tiene las siguientes características:
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Proporciona la centralización de los activos de datos corporativos.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Está contenido en un entorno bien gestionado.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Tiene definidos procesos consistentes y repetibles para la carga de datos desde aplicaciones corporativas.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Está construido sobre una arquitectura abierta y escalable, que puede manejar la futura expansión de los datos.
 
-            p 
+            p
               i.fas.fa-circle.text-small.fab.me-2
               | Proporciona herramientas que permiten a sus usuarios procesar eficazmente.
 
@@ -245,24 +245,24 @@
       .row(numero="1" titulo="<i>Data marts</i>")
         .col-md-6.mb-4.mb-md-0
           p Son almacenadores más pequeños y menos potentes, que contienen subconjuntos de datos. Puede haber uno por cada área o unidad.
-      
+
         .col-md-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             p.mb-0 <i>Referente de una data marts</i>
           figure
             img(src='@/assets/curso/temas/t1/f17.png', alt='')
-            figcaption Nota. Reproducida de Advantages and Disadvantages of a Data Mart. Mbnehaddou. 
+            figcaption Nota. Reproducida de Advantages and Disadvantages of a Data Mart. Mbnehaddou.
 
       .row.justify-content-around.align-items-center(numero="2" titulo="Cubos de información")
         .col-md-6.mb-4.mb-md-0
-          p Son bases de datos multidimensionales, que trascienden el esquema bidimensional de las hojas de cálculo. Su interconectividad se facilita gracias al uso de middleware o software de conexión.
-      
+          p Son bases de datos multidimensionales, que trascienden el esquema bidimensional de las hojas de cálculo. Su interconectividad se facilita gracias al uso de #[em middleware] o #[em software] de conexión.
+
         .col-md-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             p.mb-0 <i>Referente de cubos de información</i>
           figure
             img(src='@/assets/curso/temas/t1/f18.png', alt='')
-            figcaption Nota. Reproducida de Tratamiento de los datos: OLTP, OLAP, Data Warehouse. 
+            figcaption Nota. Reproducida de Tratamiento de los datos: OLTP, OLAP, Data Warehouse.
 
 
 
@@ -270,7 +270,7 @@
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h3 Implementación de bodega de datos
 
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
