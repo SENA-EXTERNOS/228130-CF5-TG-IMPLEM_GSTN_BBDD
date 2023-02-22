@@ -401,7 +401,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4.mb-4 #[em Data analyst]
-            p.mb-3 El analista de datos es el encargado de unir el departamento de Big Data con el resto de la organización. Si no existe un departamento de esta categoría, entonces esta persona vincula el proyecto de análisis de datos masivos con el resto de la organización. A diferencia del científico de datos, el analista no debe programar o trabajar con múltiples fuentes a la vez, sino que debe estar capacitado para manejar Excel y SQL, incluso puede ir más allá y trabajar con bases más complejas; igualmente, tiene que estar pendiente de los cambios que se puedan producir y ver cuál es la mejor forma de aplicarlos en el campo de trabajo. Este perfil profesional está en la capacidad de ver más allá de los datos: una tendencia, un patrón, una asociación, incluso puede notar datos que aparecen inconexos entre ellos y encontrar una relación en el contexto general.
+            p.mb-3 El analista de datos es el encargado de unir el departamento de #[em Big Data] con el resto de la organización. Si no existe un departamento de esta categoría, entonces esta persona vincula el proyecto de análisis de datos masivos con el resto de la organización. A diferencia del científico de datos, el analista no debe programar o trabajar con múltiples fuentes a la vez, sino que debe estar capacitado para manejar Excel y SQL, incluso puede ir más allá y trabajar con bases más complejas; igualmente, tiene que estar pendiente de los cambios que se puedan producir y ver cuál es la mejor forma de aplicarlos en el campo de trabajo. Este perfil profesional está en la capacidad de ver más allá de los datos: una tendencia, un patrón, una asociación, incluso puede notar datos que aparecen inconexos entre ellos y encontrar una relación en el contexto general.
 
           .col-md-4
             figure
@@ -411,7 +411,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4.mb-4 #[em Data strategist]
-            p El rol del estratega de datos puede ser similar al de un analista de datos, con la diferencia de que el primero da respuesta a la fase final del proceso del <i>Big data</i>. Es la persona que tiene la capacidad analítica y soltura a la hora de entender datos, pero que, sobre todo, tiene mucha creatividad y visión estratégica a partir de la información entregada por el data scientist. Además, es quien está en contacto directo con el cliente final, lo que le permite percibir las necesidades reales del mercado.
+            p El rol del estratega de datos puede ser similar al de un analista de datos, con la diferencia de que el primero da respuesta a la fase final del proceso del <i>Big data</i>. Es la persona que tiene la capacidad analítica y soltura a la hora de entender datos, pero que, sobre todo, tiene mucha creatividad y visión estratégica a partir de la información entregada por el #[em data scientist]. Además, es quien está en contacto directo con el cliente final, lo que le permite percibir las necesidades reales del mercado.
 
           .col-md-4
             figure
@@ -449,7 +449,7 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4.mb-4 #[em Middleware specialist]
-            p Este especialista se asegura de que los datos se trasladen de forma eficiente y precisa al entorno del almacén de datos, ya sea mediante herramientas o código personalizado. Además, requiere de las funciones de middleware de extracción, selección, transformación y otras tareas para convertir los datos de origen en datos listos para el almacén.
+            p Este especialista se asegura de que los datos se trasladen de forma eficiente y precisa al entorno del almacén de datos, ya sea mediante herramientas o código personalizado. Además, requiere de las funciones de #[em middleware] de extracción, selección, transformación y otras tareas para convertir los datos de origen en datos listos para el almacén.
 
 
           .col-md-4

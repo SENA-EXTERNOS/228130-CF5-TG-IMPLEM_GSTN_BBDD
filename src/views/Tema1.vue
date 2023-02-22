@@ -56,7 +56,7 @@
           .col-md-6.mb-4.mb-md-0
             p Se construye para mejorar la calidad y sincronizar dos o más aplicaciones corporativas, como una lista maestra de clientes. Los datos se aprovechan para integrar aplicaciones que no fueron diseñadas para funcionar entre sí.
 
-      .py-4.py-md-5(titulo="Datos de seguimiento del negocio:")
+      .py-4.py-md-5(titulo="Datos de seguimiento del negocio")
         .row.justify-content-around.align-items-center
           .col-md-6.tarjeta.fcasiblanco.p-3
             img(src='@/assets/curso/temas/t1/f5.png', alt='')
