@@ -191,7 +191,7 @@ export default {
     {
       termino: 'OLAP',
       significado:
-        'el procesamiento analítico en línea es un conjunto de herramientas de software, que proporciona un marco tridimensional para la toma de decisiones.',
+        'el procesamiento analítico en línea es un conjunto de herramientas de <em>software</em>, que proporciona un marco tridimensional para la toma de decisiones.',
     },
     {
       termino: 'ROLAP',
