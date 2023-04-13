@@ -293,7 +293,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i> Referente de modelo multidimensional</i>
               figure
-                img(src='@/assets/curso/temas/t4/paso1-1.jpg', alt='')
+                img(src='@/assets/curso/temas/t4/c1.svg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="2")
@@ -305,7 +305,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i>Referente de un modelo físico</i>
               figure
-                img(src='@/assets/curso/temas/t4/paso1-2.jpg', alt='')
+                img(src='@/assets/curso/temas/t4/c2.svg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="3")

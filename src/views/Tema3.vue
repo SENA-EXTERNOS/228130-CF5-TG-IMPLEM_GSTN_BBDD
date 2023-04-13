@@ -126,7 +126,7 @@
     p.mb-5 Es un programa que está esperando permanentemente las solicitudes de conexión mediante el protocolo HTTP por parte del cliente. La arquitectura tradicional de cliente/servidor también es conocida como arquitectura de dos capas.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ezqyMHKWkiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
