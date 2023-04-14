@@ -15,13 +15,15 @@
           figure
             img(src="@/assets/curso/temas/introduccion/f1.png", alt="imagen relacionada")
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-5 Apreciado aprendiz, reciba una cordial bienvenida al componente formativo Bodegas de datos. Aquí usted contará con orientación permanente para el desarrollo de este programa. Además, tendrá la oportunidad de aprender y aplicar las técnicas para diseñar y construir una bodega de datos, saber qué tipo de problemas puede resolver con estos procedimientos y así aplicarlos en un caso específico.
-            p.mb-0 <b>¡Muchos éxitos en este proceso de aprendizaje!</b>
+          .contenedor-dashed.p-4
+            .bloque-texto-a__texto.p-4
+              p.mb-5 Apreciado aprendiz, reciba una cordial bienvenida al componente formativo Bodegas de datos. Aquí usted contará con orientación permanente para el desarrollo de este programa. Además, tendrá la oportunidad de aprender y aplicar las técnicas para diseñar y construir una bodega de datos, saber qué tipo de problemas puede resolver con estos procedimientos y así aplicarlos en un caso específico.
+              p.mb-0 <b>¡Muchos éxitos en este proceso de aprendizaje!</b>
+    
     p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/SsP1tA6hAdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
 </template>

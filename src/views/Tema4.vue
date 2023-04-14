@@ -119,15 +119,16 @@
       h3 Interfases
     .row.justify-content-center.align-items-center
       .col-lg-11
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0.p-0
               figure
                 img(src="@/assets/curso/temas/t1/2.png", alt="imagen relacionada")
             .col-lg-8
-              .bloque-texto-a__texto.p-4
-                h4.mb-4 ¿Qué es una interfaz?
-                p Cuando se habla de esta palabra, se pueden encontrar muchos derivativos en el campo de la tecnología, tales como interfaz de usuario, interfaz de programación, etc. En el ámbito de la bodega de datos, interfaz es el conjunto de métodos que deben implementarse de forma obligatoria y que contienen una clase, aunque no tienen por qué comportarse del mismo modo.
+              .contenedor-dashed.p-4
+                .bloque-texto-a__texto.p-4
+                  h4.mb-4 ¿Qué es una interfaz?
+                  p Cuando se habla de esta palabra, se pueden encontrar muchos derivativos en el campo de la tecnología, tales como interfaz de usuario, interfaz de programación, etc. En el ámbito de la bodega de datos, interfaz es el conjunto de métodos que deben implementarse de forma obligatoria y que contienen una clase, aunque no tienen por qué comportarse del mismo modo.
 
 
     p.mb-5 Es necesario contar con cuatro principios básicos para tener una interfaz exitosa. Estos son los siguientes:
@@ -288,66 +289,66 @@
                 i.fas.fa-circle.text-small.fad.me-2
                 | Consulta que sea por medio de cubos multidimensionales.
 
-          .col-md-7
+          .col-md-8
             .mt-4
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i> Referente de modelo multidimensional</i>
               figure
-                img(src='@/assets/curso/temas/t4/paso1-1.jpg', alt='')
+                img.mb-3(src='@/assets/curso/temas/t4/paso1-1.jpg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="2")
           .col-md-4.mb-4.mb-md-0
             p.mt-5 Tomando como base el modelo multidimensional propio, se debe diseñar un modelo físico con los nombres de las tablas, campos y tipos de datos:
 
-          .col-md-7
+          .col-md-8
             .mt-4
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i>Referente de un modelo físico</i>
               figure
-                img(src='@/assets/curso/temas/t4/paso1-2.jpg', alt='')
+                img.mb-3(src='@/assets/curso/temas/t4/paso1-2.jpg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="3")
-          .col-lg-5.mb-4.mb-md-0
+          .col-lg-4.mb-4.mb-md-0
             p.mb-4.mt-5 Se debe contar con un servidor con estas características de <i>software</i>:
 
-          .col-lg-5.col-sm-8
+          .col-lg-8.col-sm-8
 
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               p.mb-0.text-small <i>Referente de características de un servidor</i>
             figure
-              img(src='@/assets/curso/temas/t4/f14.png', alt='', style="max-width: 611px")
+              img.mb-3(src='@/assets/curso/temas/t4/f14.svg', alt='', style="max-width: 611px")
               figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="4")
-          .col-md-4.mb-4.mb-md-0
+          .col-lg-4.mb-4.mb-md-0
             p.mb-4.mt-5 El servidor debe tener las siguientes características de <i>hardware</i>:
 
-          .col-md-6
+          .col-lg-8
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               p.mb-0.text-small <i>Referente de un modelo físico</i>
             figure
-              img(src='@/assets/curso/temas/t4/f15.png', alt='')
+              img.mb-3(src='@/assets/curso/temas/t4/f15.svg', alt='')
               figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="5")
 
-          .col-lg-11
+          .col-lg-12
             p.mb-5 Los campos para extraerse de cada fuente corresponden a lo siguiente:
 
             .row.justify-content-center.align-items-start
-              .col-md-6
+              .col-lg-6
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   p.mb-0 <i>Referente de un modelado dimensional</i>
                 figure
-                  img(src='@/assets/curso/temas/t4/f16.png', alt='')
+                  img(src='@/assets/curso/temas/t4/f16.svg', alt='')
 
-              .col-md-6
+              .col-lg-6
                 .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                   p.mb-0 <i> Referente de un modelado dimensional</i>
                 figure
-                  img(src='@/assets/curso/temas/t4/f17.png', alt='')
+                  img(src='@/assets/curso/temas/t4/f17.svg', alt='')
 
     Separador
 

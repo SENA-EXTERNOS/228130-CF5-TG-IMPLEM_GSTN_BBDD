@@ -50,12 +50,15 @@
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h3 Sistema operativo y red
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/t2/f5.jpg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de empezar, se debe tener en cuenta que estos requerimientos de sistemas operativos y de red no son algo que está establecido ni mucho menos estandarizado, aunque existe una guía básica que puede dar claridad de esto. Del mismo modo, estos requerimientos dependen de la magnitud del proyecto y de la necesidad de los clientes. Para la construcción de una bodega de datos, se deben cumplir algunos requisitos con las herramientas de #[em software] y #[em hardware]. En el caso del #[em hardware], se requieren uno o más servidores para el almacenamiento de la información y la administración de la base de datos de la organización. Preferiblemente, el servidor debe ser escalable, porque en algunas ocasiones el proyecto de construcción de la bodega presenta un tipo de redimensionamiento a medida que avanza la implementación.
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4.mb-5
+      .col-lg-4
+        .bloque-texto-g__img(
+          :style="{'background-image':`url(${require('@/assets/curso/temas/t2/f5.jpg')})`}"
+        )
+      .col-lg-8
+        .contenedor-dashed.p-4
+          .bloque-texto-g1__texto.p-4
+            p.mb-0 Antes de empezar, se debe tener en cuenta que estos requerimientos de sistemas operativos y de red no son algo que está establecido ni mucho menos estandarizado, aunque existe una guía básica que puede dar claridad de esto. Del mismo modo, estos requerimientos dependen de la magnitud del proyecto y de la necesidad de los clientes. Para la construcción de una bodega de datos, se deben cumplir algunos requisitos con las herramientas de #[em software] y #[em hardware]. En el caso del #[em hardware], se requieren uno o más servidores para el almacenamiento de la información y la administración de la base de datos de la organización. Preferiblemente, el servidor debe ser escalable, porque en algunas ocasiones el proyecto de construcción de la bodega presenta un tipo de redimensionamiento a medida que avanza la implementación.
 
 
 
@@ -120,7 +123,7 @@
           .tarjeta.color-secundario--borde.p-4(titulo="Arquitectura <br>cliente/servidor")
             p Asimismo, se debe tener en cuenta que la arquitectura cliente/servidor está basada en sistemas modulares y abiertos, que permitan la interacción y la colaboración. Por su parte, la dimensionalidad genérica se refiere a la capacidad que debe tener el sistema para crear todo tipo de dimensiones y con trabajos que sean proactivos en varias de ellas.
 
-          .tarjeta.color-secundario--borde.p-4(titulo="Soporte multiusuario")
+          .tarjeta.color-secundario--borde.p-4(titulo="Soporte <br>multiusuario")
             p Por último, y no menos importante, se debe aclarar que los sistemas OLAP incumben en el permiso de soporte multiusuario; así que conviene tener una manipulación de datos intuitiva, dado que las personas a las que se destinan estos sistemas son usualmente analistas y altos ejecutivos. Por lo tanto, la interacción debe considerarse desde el prisma de la máxima usabilidad de los usuarios.
 
       .col-md-3

@@ -155,7 +155,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<i>Business intelligence</i> (BI):',
+      termino: '<i>Business intelligence</i> (BI)',
       significado:
         'método que agrupa los datos de una empresa, con el objetivo que se analicen y transformen en información que pueda utilizarse para mejorar los procesos.',
     },

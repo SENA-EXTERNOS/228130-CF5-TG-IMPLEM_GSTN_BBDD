@@ -6,25 +6,26 @@
       .titulo-principal__numero
         span 3
       h1 Arquitectura de una bodega de datos
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/temas/t1/1.svg", alt="imagen relacionada")
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-4 La arquitectura general de una bodega de datos, tiene diferentes componentes que hacen parte de los procesos para llevar a la construcción de herramientas analíticas que permitan la toma de decisiones, basadas en la información del negocio.
-            ul.lista-ul
-              li
-                i.fas.fa-circle.text-small.fad.me-2
-                p.mb-0 El primer componente lo conforman las fuentes de información.
+          .contenedor-dashed.p-4
+            .bloque-texto-a__texto.p-4
+              p.mb-4 La arquitectura general de una bodega de datos, tiene diferentes componentes que hacen parte de los procesos para llevar a la construcción de herramientas analíticas que permitan la toma de decisiones, basadas en la información del negocio.
+              ul.lista-ul
+                li
+                  i.fas.fa-circle.text-small.fad.me-2
+                  p.mb-0 El primer componente lo conforman las fuentes de información.
 
-              li
-                i.fas.fa-circle.text-small.fad.me-2
-                p.mb-0 El segundo componente se llevan a cabo todas las operaciones de ETL.
-              li
-                i.fas.fa-circle.text-small.fad.me-2
-                p.mb-0 El tercer componente, contiene las herramientas de visualización de datos, las cuales consultan los modelos multidimensionales para la generación de tableros de control o #[em dashboards] con la información del negocio.
+                li
+                  i.fas.fa-circle.text-small.fad.me-2
+                  p.mb-0 El segundo componente se llevan a cabo todas las operaciones de ETL.
+                li
+                  i.fas.fa-circle.text-small.fad.me-2
+                  p.mb-0 El tercer componente, contiene las herramientas de visualización de datos, las cuales consultan los modelos multidimensionales para la generación de tableros de control o #[em dashboards] con la información del negocio.
 
     p.mb-5 Es importante definir la arquitectura de una bodega de datos. Para ello, se deben analizar las siguientes propiedades esenciales:
 
@@ -126,7 +127,7 @@
     p.mb-5 Es un programa que está esperando permanentemente las solicitudes de conexión mediante el protocolo HTTP por parte del cliente. La arquitectura tradicional de cliente/servidor también es conocida como arquitectura de dos capas.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ezqyMHKWkiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

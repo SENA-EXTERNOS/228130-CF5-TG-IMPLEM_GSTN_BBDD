@@ -63,11 +63,13 @@
           .col-md-6.mb-4.mb-md-0
             p presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
 
-    .bloque-texto-a.color-primario.invert.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.invert.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-0 En la historia de la bodega de datos, este concepto surge a finales de los años ochenta, como respuesta a la necesidad de facilitar la consolidación de información en los sistemas de apoyo a la decisión o <i>decision support systems</i> (DSS), con el trabajo de los investigadores de IBM, Barry Devlin y Paul Murphy (Biscobing, 2021). Aunque fue William H. Inmon, conocido como el padre del <i>data warehousing</i>, quien acuñó el término <i>data warehouse</i>, desde las décadas de los setenta y ochenta los datos comenzaron a expandirse y las organizaciones necesitaban una forma fácil de almacenar y acceder a dicha información (SAS, s. f.).
+          .contenedor-dashed.p-4
+            .bloque-texto-a__texto.p-4
+              p.mb-0 En la historia de la bodega de datos, este concepto surge a finales de los años ochenta, como respuesta a la necesidad de facilitar la consolidación de información en los sistemas de apoyo a la decisión o <i>decision support systems</i> (DSS), con el trabajo de los investigadores de IBM, Barry Devlin y Paul Murphy (Biscobing, 2021). Aunque fue William H. Inmon, conocido como el padre del <i>data warehousing</i>, quien acuñó el término <i>data warehouse</i>, desde las décadas de los setenta y ochenta los datos comenzaron a expandirse y las organizaciones necesitaban una forma fácil de almacenar y acceder a dicha información (SAS, s. f.).
+        
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/temas/t1/f6.svg', alt='')
@@ -270,14 +272,16 @@
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h3 Implementación de bodega de datos
 
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src="@/assets/curso/temas/t1/f19.png", alt="imagen relacionada")
         .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p.mb-5 El diseño y la metodología de una bodega de datos debe ser ejecutado de acuerdo con los requerimientos definidos de cada empresa y el modelo de BI que se esté manejando. Además, se deben tener en cuenta los procesos de ETL, que crean el modelo de cómo se aloja la información en el almacén de datos, para que cada usuario tenga acceso a la información correcta.
+          .contenedor-dashed.p-4
+            .bloque-texto-a__texto.p-4
+              p.mb-5 El diseño y la metodología de una bodega de datos debe ser ejecutado de acuerdo con los requerimientos definidos de cada empresa y el modelo de BI que se esté manejando. Además, se deben tener en cuenta los procesos de ETL, que crean el modelo de cómo se aloja la información en el almacén de datos, para que cada usuario tenga acceso a la información correcta.
+
 </template>
 
 <script>
