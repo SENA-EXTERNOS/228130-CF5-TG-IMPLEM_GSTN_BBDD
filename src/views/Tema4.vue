@@ -139,18 +139,18 @@
           img(src='@/assets/curso/temas/t4/f8.png', alt='')
 
 
-      div(x="5%" y="25%" tooltip="Ver mas")
+      div(x="5%" y="25%" tooltip="")
         h5.mb-3 Centrarse en el negocio
         p Determinar la viabilidad e identificar los requerimientos del negocio y su valor asociado, en este análisis de los requerimientos se identifican las necesidades específicas que tiene una organización con respecto al análisis de la información. También se debe ser previsor, pensar más allá de la necesidad actual para cubrir la futura, es conveniente hacer un diagnóstico y conceptualización adecuada del mismo, identificar claramente los objetivos y el contenido del proyecto.
 
-      div(x="5%" y="75%" tooltip="Ver mas")
+      div(x="5%" y="75%" tooltip="")
         .h5.mb-3 Construir una infraestructura de información adecuada
         p Diseñar una base única, integrada, fácil de usar, y de un alto  rendimiento donde se reflejen los requerimientos del negocio.
 
-      div(x="96%" y="25%" tooltip="Ver mas")
+      div(x="96%" y="25%" tooltip="")
         .h5.mb-3 Realizar entregas en incrementos significativos
         p Incrementos entregables en plazos, tipo metodología ágil.
-      div(x="96%" y="75%" tooltip="Ver mas")
+      div(x="96%" y="75%" tooltip="")
         .h5.mb-3 Ofrecer la solución completa
         p Crear un almacén de datos sólido, un buen diseño, con calidad probada y accesible.
 
@@ -294,7 +294,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i> Referente de modelo multidimensional</i>
               figure
-                img.mb-3(src='@/assets/curso/temas/t4/paso1-1.jpg', alt='')
+                img.mb-3(src='@/assets/curso/temas/t4/f12.svg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="2")
@@ -306,7 +306,7 @@
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 p.mb-0.text-small <i>Referente de un modelo físico</i>
               figure
-                img.mb-3(src='@/assets/curso/temas/t4/paso1-2.jpg', alt='')
+                img.mb-3(src='@/assets/curso/temas/t4/f13.svg', alt='')
                 figcaption Nota. Reproducida de Diseño de una guía general para construir una bodega de datos del área de ventas de una empresa [Tesis de pregrado, Universidad Libre]. Repositorio Unilibre. Roldán, D. E. (2015).
 
         .row.justify-content-center.align-items-start(titulo="3")
