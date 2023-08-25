@@ -25,7 +25,7 @@
                   p.mb-0 El segundo componente se llevan a cabo todas las operaciones de ETL.
                 li
                   i.fas.fa-circle.text-small.fad.me-2
-                  p.mb-0 El tercer componente, contiene las herramientas de visualización de datos, las cuales consultan los modelos multidimensionales para la generación de tableros de control o #[em dashboards] con la información del negocio.
+                  p.mb-0 El tercer componente contiene las herramientas de visualización de datos, las cuales consultan los modelos multidimensionales para la generación de tableros de control o #[em dashboards] con la información del negocio.
 
     p.mb-5 Es importante definir la arquitectura de una bodega de datos. Para ello, se deben analizar las siguientes propiedades esenciales:
 
@@ -233,7 +233,9 @@
               i.fas.fa-circle.text-small.fad.me-2
               | Ofrecen un rendimiento mejor, ya que son mucho más pequeños que las bodegas de datos primarias.
 
-            p Algunas veces pueden tener una arquitectura diferente de las fuentes de datos que se usan para llenar los <i>data marts.</i>
+            p 
+              i.fas.fa-circle.text-small.fad.me-2
+              | Algunas veces pueden tener una arquitectura diferente de las fuentes de datos que se usan para llenar los <i>data marts.</i>
 
 
           .col-md-6

@@ -16,7 +16,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-8.order-md-first.order-last
-        p.mb-4 También llamado <i>data warehouse</i> (DW), es un sistema de almacenamiento digital de datos que maneja grandes cantidades de información, de diferentes fuentes, con el objetivo de alimentar los procesos de inteligencia de negocios (BI, por sus siglas en inglés), informes, consultas y analíticas (SAP, s. f.). Del mismo modo, el DW se encarga de dar soporte a los diferentes requerimientos de manera que las empresas puedan convertir sus datos en información valiosa y tomar mejores decisiones a partir de estos. En suma, un DW guarda los datos tanto históricos como actuales en una sola ubicación y son la única fuente confiable de información para una organización (SAP, s. f.).
+        p.mb-4 También llamado <i>data warehouse</i> (DW), es un sistema de almacenamiento digital de datos que maneja grandes cantidades de información, de diferentes fuentes, con el objetivo de alimentar los procesos de inteligencia de negocios (BI, por sus siglas en inglés), informes, consultas y analíticas (SAP, s. f.). Del mismo modo, el DW se encarga de dar soporte a los diferentes requerimientos, de manera que las empresas puedan convertir sus datos en información valiosa y tomar mejores decisiones a partir de estos. En suma, un DW guarda los datos tanto históricos como actuales en una sola ubicación y son la única fuente confiable de información para una organización (SAP, s. f.).
         p Una bodega de datos es una tecnología que acumula información diversa y de manera central de una empresa y que facilita la integración y procesamiento de todos los registros. El DW brinda un valor agregado de gran utilidad para generar consultas e informes y optimiza la toma de decisiones de una organización. Asimismo, este almacén electrónico registra todas las actividades o la vida de una empresa de manera fácil y rápida para su análisis, lo cual contribuye a la toma de decisiones.
       .col-md-4
         figure
@@ -61,7 +61,7 @@
           .col-md-6.tarjeta.fcasiblanco.p-3
             img(src='@/assets/curso/temas/t1/f5.png', alt='')
           .col-md-6.mb-4.mb-md-0
-            p presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
+            p Presentados a los usuarios finales para la elaboración de informes y apoyo a la toma de decisiones, como su cuadro de mando financiero. Los datos se limpian para permitir a los usuarios comprender mejor el progreso y evaluar las relaciones causa-efecto de los datos.
 
     .bloque-texto-a.color-primario.invert.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
@@ -178,7 +178,7 @@
         p Los medios por los que se trasladan los datos desde las aplicaciones de origen y que se cargan en el almacén de datos.
 
       .tarjeta.fac.p-3(x="45%" y="76%" numero="")
-        p Las reglas de negocio aplicadas a los datos en en bruto para producir activos de datos de alta  calidad.
+        p Las reglas de negocio aplicadas a los datos en bruto para producir activos de datos de alta  calidad.
 
       .tarjeta.fac.p-3(x="58%" y="48%" numero="")
         p Las bases de datos de destino, en las que se almacenan los activos de datos.
@@ -206,10 +206,10 @@
             p Es la información que no depende de la empresa, pero que ayuda de forma valiosa. Se puede obtener ya sea de forma cedida o comprada.
 
           .row(titulo="ETL")
-            p conocido así por sus siglas en inglés (<i>extract, transform and load</i>), busca canalizar los datos que se almacenan en bruto para que luego sean transformados y, finalmente, listos y a disposición.
+            p Conocido así por sus siglas en inglés (<i>extract, transform and load</i>), busca canalizar los datos que se almacenan en bruto para que luego sean transformados y, finalmente, listos y a disposición.
 
           .row(titulo="Informes")
-            p Son documentos que recogen información de hechos verificados y analizados y que tienen como fin comunicar.
+            p Son documentos que recogen información de hechos verificados y analizados, que tienen como fin comunicar.
 
           .row(titulo="Análisis OLAP")
             p Es un concepto y una tecnología para la BI, que permite ejecutar un análisis multidimensional de los datos de una forma rápida e interactiva. Igualmente, ayuda a obtener información resumida de grandes bases de datos u OLTP, con la finalidad de tener análisis previamente calculados, que aceleren la búsqueda de mucha información. El OLAP se emplea principalmente en informes de negocios para las ventas, en <i>marketing</i>, en informes de dirección, en minería de datos y áreas similares.
@@ -255,7 +255,7 @@
             img(src='@/assets/curso/temas/t1/f17.png', alt='')
             figcaption Nota. Reproducida de Advantages and Disadvantages of a Data Mart. Mbnehaddou.
 
-      .row.justify-content-around.align-items-center(numero="2" titulo="Cubos de información")
+      .row.justify-content-around(numero="2" titulo="Cubos de información")
         .col-md-6.mb-4.mb-md-0
           p Son bases de datos multidimensionales, que trascienden el esquema bidimensional de las hojas de cálculo. Su interconectividad se facilita gracias al uso de #[em middleware] o #[em software] de conexión.
 

@@ -259,7 +259,7 @@
               li
                 .lista-ol--cuadro__vineta
                   span 17
-                | Crear un documento final muy específico donde se visualice el plan del proyecto, que incluya cada uno de los puntos mencionados con anterioridad, y donde el equipo encargado de la construcción de la bodega de datos comprenda el mismo enfoque, tenga conocimiento de las actividades y tiempos y evite malas interpretaciones que se puedan evidenciar y que generen retrasos.
+                | Crear un documento final muy específico, donde se visualice el plan del proyecto, que incluya cada uno de los puntos mencionados con anterioridad, y donde el equipo encargado de la construcción de la bodega de datos comprenda el mismo enfoque, tenga conocimiento de las actividades y tiempos y evite malas interpretaciones que se puedan evidenciar y que generen retrasos.
 
 
           .col-md-6
