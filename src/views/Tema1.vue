@@ -209,7 +209,7 @@
             p Conocido así por sus siglas en inglés (<i>extract, transform and load</i>), busca canalizar los datos que se almacenan en bruto para que luego sean transformados y, finalmente, listos y a disposición.
 
           .row(titulo="Informes")
-            p Son documentos que recogen información de hechos verificados y analizados, que tienen como fin comunicar.
+            p Son documentos que recogen información de hechos verificados, analizados y que tienen como fin comunicar.
 
           .row(titulo="Análisis OLAP")
             p Es un concepto y una tecnología para la BI, que permite ejecutar un análisis multidimensional de los datos de una forma rápida e interactiva. Igualmente, ayuda a obtener información resumida de grandes bases de datos u OLTP, con la finalidad de tener análisis previamente calculados, que aceleren la búsqueda de mucha información. El OLAP se emplea principalmente en informes de negocios para las ventas, en <i>marketing</i>, en informes de dirección, en minería de datos y áreas similares.
