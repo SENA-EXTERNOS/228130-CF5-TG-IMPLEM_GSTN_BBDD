@@ -276,7 +276,7 @@
 
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p.mb-0 <b>Figura 10.</b> <br> <i>Referente de una arquitectura de bodega de datos</i>
+              p.mb-0 <i>Referente de una arquitectura de bodega de datos</i>
             figure
               img(src='@/assets/curso/temas/t3/f21.png', alt='')
               figcaption Nota. Reproducida de Diseño de un data warehouse para medir el desarrollo disciplinar en instituciones académicas. Investigación biotecnológica, 31(72), 161-181. Gorbea, S. y Madera, M. (2017).
@@ -301,7 +301,7 @@
 
           .col-md-6
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              p.mb-0 <b>Figura 10.</b><br> <i>Referente de una arquitectura de bodega de datos</i>
+              p.mb-0 <i>Referente de una arquitectura de bodega de datos</i>
             figure
               img(src='@/assets/curso/temas/t3/f21.png', alt='')
               figcaption Nota. Reproducida de Diseño de un data warehouse para medir el desarrollo disciplinar en instituciones académicas. Investigación biotecnológica, 31(72), 161-181. Gorbea, S. y Madera, M. (2017).
