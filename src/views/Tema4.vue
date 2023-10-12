@@ -116,7 +116,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h3 Interfases
+      h3 Interfaces
     .row.justify-content-center.align-items-center
       .col-lg-11
         .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5
