@@ -118,7 +118,7 @@
             p Las características principales de los sistemas OLAP comienzan con integrar una vista conceptual multidimensional, lo que permitirá que se trabaje a partir de métricas de negocio y sus dimensiones. Esto implica al servicio OLAP y a los usuarios aceptar un único esquema lógico de datos.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Características<br> para resaltar")
-            p Por otro lado, la arquitectura cliente/servidor, la dimensionalidad genérica y el rendimiento de informes consistente son características que vale la pena resaltar, debido a que este último no debería degradarse cuando el número de dimensiones del modelo se vaya incrementando.
+            p Por otro lado, la arquitectura cliente/servidor, la dimensionalidad genérica y el rendimiento de informes, son características que vale la pena resaltar, debido a que este último no debería degradarse cuando el número de dimensiones del modelo se vaya incrementando.
 
           .tarjeta.color-secundario--borde.p-4(titulo="Arquitectura <br>cliente/servidor")
             p Asimismo, se debe tener en cuenta que la arquitectura cliente/servidor está basada en sistemas modulares y abiertos, que permitan la interacción y la colaboración. Por su parte, la dimensionalidad genérica se refiere a la capacidad que debe tener el sistema para crear todo tipo de dimensiones y con trabajos que sean proactivos en varias de ellas.

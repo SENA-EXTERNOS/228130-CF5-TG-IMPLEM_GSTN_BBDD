@@ -23,42 +23,42 @@
               li
                 .lista-ol--cuadro__vineta
                   span 1
-                | Determinar la misión y los objetivos empresariales.
+                span Determinar la misión y los objetivos empresariales.
 
               li
                 .lista-ol--cuadro__vineta
                   span 2
-                | Determinar la funcionalidad que se quiere para el almacén de datos.
+                span Determinar la funcionalidad que se quiere para el almacén de datos.
 
               li
                 .lista-ol--cuadro__vineta
                   span 3
-                | Determinar los tipos de datos que se necesitan en la bodega para apoyar su funcionalidad.
+                span Determinar los tipos de datos que se necesitan en la bodega para apoyar su funcionalidad.
 
               li
                 .lista-ol--cuadro__vineta
                   span 4
-                | Determinar el contenido en función del volumen y el tamaño.
+                span Determinar el contenido en función del volumen y el tamaño.
 
               li
                 .lista-ol--cuadro__vineta
                   span 5
-                | Determinar el tipo de base de datos, puesto que cada una tiene su particularidad.
+                span Determinar el tipo de base de datos, puesto que cada una tiene su particularidad.
 
               li
                 .lista-ol--cuadro__vineta
                   span 6
-                | Determinar el diseño físico orientado a producir un buen rendimiento en el procesamiento de consultas.
+                span Determinar el diseño físico orientado a producir un buen rendimiento en el procesamiento de consultas.
 
               li
                 .lista-ol--cuadro__vineta
                   span 7
-                | Determinar los procesos de administración futuros del &nbsp;<i>data warehouse</i>.
+                span Determinar los procesos de administración futuros del &nbsp;<i>data warehouse</i>.
 
               li
                 .lista-ol--cuadro__vineta
                   span 8
-                | Revisar de forma periódica para validar la continua respuesta a las necesidades de la organización.
+                span Revisar de forma periódica para validar la continua respuesta a las necesidades de la organización.
 
 
           .col-md-6
