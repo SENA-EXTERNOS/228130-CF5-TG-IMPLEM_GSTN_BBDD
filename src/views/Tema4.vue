@@ -136,7 +136,7 @@
     ImagenInfograficaB.color-primario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/t4/f8.png', alt='')
+          img(src='@/assets/curso/temas/t4/f8.svg', alt='')
 
 
       div(x="5%" y="25%" tooltip="")
