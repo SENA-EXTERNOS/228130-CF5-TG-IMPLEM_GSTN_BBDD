@@ -133,24 +133,24 @@
 
     p.mb-5 Es necesario contar con cuatro principios básicos para tener una interfaz exitosa. Estos son los siguientes:
 
-    ImagenInfograficaB.color-primario.mb-5
+    ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/t4/f8.svg', alt='')
 
-
-      div(x="5%" y="25%" tooltip="")
+    
+      .tarjeta.fnd-1.p-3(x="5%" y="25%" numero="+")
         h5.mb-3 Centrarse en el negocio
         p Determinar la viabilidad e identificar los requerimientos del negocio y su valor asociado, en este análisis de los requerimientos se identifican las necesidades específicas que tiene una organización con respecto al análisis de la información. También se debe ser previsor, pensar más allá de la necesidad actual para cubrir la futura, es conveniente hacer un diagnóstico y conceptualización adecuada del mismo, identificar claramente los objetivos y el contenido del proyecto.
 
-      div(x="5%" y="75%" tooltip="")
+      .tarjeta.fnd-1.p-3(numero="+" x="5%" y="75%" tooltip="")
         .h5.mb-3 Construir una infraestructura de información adecuada
         p Diseñar una base única, integrada, fácil de usar, y de un alto  rendimiento donde se reflejen los requerimientos del negocio.
 
-      div(x="96%" y="25%" tooltip="")
+      .tarjeta.fnd-1.p-3(numero="+" x="96%" y="25%" tooltip="")
         .h5.mb-3 Realizar entregas en incrementos significativos
         p Incrementos entregables en plazos, tipo metodología ágil.
-      div(x="96%" y="75%" tooltip="")
+      .tarjeta.fnd-1.p-3(numero="+" x="96%" y="75%" tooltip="")
         .h5.mb-3 Ofrecer la solución completa
         p Crear un almacén de datos sólido, un buen diseño, con calidad probada y accesible.
 

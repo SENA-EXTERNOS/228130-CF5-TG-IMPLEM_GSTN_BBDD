@@ -113,7 +113,8 @@ export default {
       referencia:
         'Luna, E. y García, F. (2000). El repositorio de metadatos en un <i>data warehouse</i>. Revista Facultad de Ingeniería, (8), p. 10-15.',
       tipo: 'Artículo',
-      link: 'https://www.redalyc.org/pdf/114/11400802.pdf',
+      link:
+        'https://docplayer.es/883955-Revista-facultad-de-ingenieria-issn-0717-1072-facing-uta-cl-universidad-de-tarapaca-chile.html',
     },
     {
       tema: 'Introducción a la bodega de datos',
@@ -138,19 +139,11 @@ export default {
         'https://industriasgsl.com/blogs/automatizacion/que-es-la-estructura-secuencial',
     },
     {
-      tema: 'Diseño de bodega de datos',
-      referencia:
-        'Lewis, R. M. (2017). <i>Tutorial fácil de seguir para aprender la programación de Python en menos de una semana</i>.',
-      tipo: 'Libro digital',
-      link: 'https://bit.ly/3glAJ4w',
-    },
-    {
       tema: 'Arquitectura de una bodega de datos',
       referencia:
         'Medina, J., Pineda, E. y Téllez, F. R. (2019). Requerimientos de software: prototipado, software heredado y análisis de documentos. <i>Ingeniería y Desarrollo</i>, 37(2), p. 327-345.',
       tipo: 'Artículo',
-      link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0122-34612019000200327',
+      link: 'https://www.redalyc.org/journal/852/85263724010/html/',
     },
   ],
   glosario: [
